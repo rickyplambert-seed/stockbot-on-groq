@@ -1,1 +1,3043 @@
-* @bklieger-groq
+sovereign-ai-platform-guide.pdf $ curl -i https://atos.net/wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf
+HTTP/2 200
+server: Apache
+cache-control: max-age=86400, public
+x-cache: MISS
+content-type: application/pdf
+content-security-policy: default-src 'self' atos.net www.googleadservices.com www.google.com *.atos.net *.googletagmanager.com *.doubleclick.net eviden.com *.atos-consulting.net cdn.jsdelivr.net *.cloudflare.com *.cloudfront.net *.vimeo.com *.vimeocdn.com *.akamaized.net *.tiny.cloud *.tinymce.com *.bootstrapcdn.com yoast.com *.yoast.com data: 'unsafe-inline' 'unsafe-eval' blob: code.jquery.com *.gravatar.com ps.w.org ams.wpml.org *.marketo.net *.mktoresp.com *.mktoweb.com tools.eurolandir.com *.youtube-nocookie.com *.youtube.com *.ytimg.com *.gstatic.com *.googleapis.com *.linkedin.com *.google.com *.accountinsight.cloud *.licdn.com w.soundcloud.com *.aio-events.com *.appspot.com *.microsoft.com *.azureedge.net *.botframework.com *.bizzabo.com updates.themepunch-ext-c.tools updates.themepunch-ext-b.tools updates.themepunch-ext-a.tools updates.themepunch.tools optanon.blob.core.windows.net *.glassdoor.com indd.adobe.com smartslider3.com *.googleusercontent.com yt3.ggpht.com *.cdninstagram.com *.matomo.cloud cdn.linkedin.oribi.io; frame-ancestors 'self' atos.net *.atos.net atos365.sharepoint.com;
+strict-transport-security: max-age=31536000;
+date: Wed, 12 Aug 2026 22:04:18 GMT
+expires: Thu, 13 Aug 2026 22:04:18 GMT
+x-xss-protection: 1; mode=block
+accept-ranges: bytes
+x-content-type-options: nosniff
+etag: "229535-6277cb35f2d8b"
+last-modified: Fri, 22 Nov 2024 09:06:39 GMT
+x-powered-by: Claranet
+x-backend-status: 200
+age: 0
+content-length: 2266421
+x-director: web_front
+
+Warning: Binary output can mess up your
+Warning: terminal. Use "--output -" to tell
+Warning: curl to output it to your terminal
+Warning: anyway, or consider "--output
+Warning: <FILE>" to save to a file.
+~ $ curl -v https://atos.net/wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf
+* Host atos.net:443 was resolved.
+* IPv6: (none)
+* IPv4: 79.99.39.104
+*   Trying 79.99.39.104:443...
+* ALPN: curl offers h2,http/1.1
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* SSL Trust Anchors:
+*   CAfile: /data/data/com.termux/files/usr/etc/tls/cert.pem
+*   CApath: /data/data/com.termux/files/usr/etc/tls/certs
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* TLSv1.3 (IN), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / secp256r1 / RSASSA-PSS
+* ALPN: server accepted h2
+* Server certificate:
+*   subject: C=FR; ST=Île-de-France; O=ATOS SE; CN=*.atos.net
+*   start date: Jul 17 00:00:00 2026 GMT
+*   expire date: Jan 31 23:59:59 2027 GMT
+*   issuer: C=GB; O=Sectigo Limited; CN=Sectigo Public Server Authentication CA OV R36
+*   Certificate level 0: Public key type RSA (4096/152 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type RSA (3072/128 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type RSA (4096/152 Bits/secBits), signed using sha384WithRSAEncryption
+*   subjectAltName: "atos.net" matches cert's "atos.net"
+* OpenSSL verify result: 0
+* SSL certificate verified via OpenSSL.
+* Established connection to atos.net (79.99.39.104 port 443) from 192.168.1.24 port 42054
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://atos.net/wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: atos.net]
+* [HTTP/2] [1] [:path: /wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf]
+* [HTTP/2] [1] [user-agent: curl/8.21.0]
+* [HTTP/2] [1] [accept: */*]
+> GET /wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf HTTP/2
+> Host: atos.net
+> User-Agent: curl/8.21.0
+> Accept: */*
+>
+* Request completely sent off
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+< HTTP/2 200
+< server: Apache
+< cache-control: max-age=86400, public
+< x-cache: MISS
+< content-type: application/pdf
+< content-security-policy: default-src 'self' atos.net www.googleadservices.com www.google.com *.atos.net *.googletagmanager.com *.doubleclick.net eviden.com *.atos-consulting.net cdn.jsdelivr.net *.cloudflare.com *.cloudfront.net *.vimeo.com *.vimeocdn.com *.akamaized.net *.tiny.cloud *.tinymce.com *.bootstrapcdn.com yoast.com *.yoast.com data: 'unsafe-inline' 'unsafe-eval' blob: code.jquery.com *.gravatar.com ps.w.org ams.wpml.org *.marketo.net *.mktoresp.com *.mktoweb.com tools.eurolandir.com *.youtube-nocookie.com *.youtube.com *.ytimg.com *.gstatic.com *.googleapis.com *.linkedin.com *.google.com *.accountinsight.cloud *.licdn.com w.soundcloud.com *.aio-events.com *.appspot.com *.microsoft.com *.azureedge.net *.botframework.com *.bizzabo.com updates.themepunch-ext-c.tools updates.themepunch-ext-b.tools updates.themepunch-ext-a.tools updates.themepunch.tools optanon.blob.core.windows.net *.glassdoor.com indd.adobe.com smartslider3.com *.googleusercontent.com yt3.ggpht.com *.cdninstagram.com *.matomo.cloud cdn.linkedin.oribi.io; frame-ancestors 'self' atos.net *.atos.net atos365.sharepoint.com;
+< strict-transport-security: max-age=31536000;
+< date: Wed, 12 Aug 2026 22:04:37 GMT
+< expires: Thu, 13 Aug 2026 22:04:37 GMT
+< x-xss-protection: 1; mode=block
+< accept-ranges: bytes
+< x-content-type-options: nosniff
+< etag: "229535-6277cb35f2d8b"
+< last-modified: Fri, 22 Nov 2024 09:06:39 GMT
+< x-powered-by: Claranet
+< x-backend-status: 200
+< age: 0
+< content-length: 2266421
+< x-director: web_front
+<
+Warning: Binary output can mess up your
+Warning: terminal. Use "--output -" to tell
+Warning: curl to output it to your terminal
+Warning: anyway, or consider "--output
+Warning: <FILE>" to save to a file.
+* client returned ERROR on write of 4096 bytes
+* Connection #0 to host atos.net:443 left intact
+~ $ curl -iv https://atos.net/wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf
+* Host atos.net:443 was resolved.
+* IPv6: (none)
+* IPv4: 79.99.39.104
+*   Trying 79.99.39.104:443...
+* ALPN: curl offers h2,http/1.1
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* SSL Trust Anchors:
+*   CAfile: /data/data/com.termux/files/usr/etc/tls/cert.pem
+*   CApath: /data/data/com.termux/files/usr/etc/tls/certs
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* TLSv1.3 (IN), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / secp256r1 / RSASSA-PSS
+* ALPN: server accepted h2
+* Server certificate:
+*   subject: C=FR; ST=Île-de-France; O=ATOS SE; CN=*.atos.net
+*   start date: Jul 17 00:00:00 2026 GMT
+*   expire date: Jan 31 23:59:59 2027 GMT
+*   issuer: C=GB; O=Sectigo Limited; CN=Sectigo Public Server Authentication CA OV R36
+*   Certificate level 0: Public key type RSA (4096/152 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type RSA (3072/128 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type RSA (4096/152 Bits/secBits), signed using sha384WithRSAEncryption
+*   subjectAltName: "atos.net" matches cert's "atos.net"
+* OpenSSL verify result: 0
+* SSL certificate verified via OpenSSL.
+* Established connection to atos.net (79.99.39.104 port 443) from 192.168.1.24 port 40208
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://atos.net/wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: atos.net]
+* [HTTP/2] [1] [:path: /wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf]
+* [HTTP/2] [1] [user-agent: curl/8.21.0]
+* [HTTP/2] [1] [accept: */*]
+> GET /wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf HTTP/2
+> Host: atos.net
+> User-Agent: curl/8.21.0
+> Accept: */*
+>
+* Request completely sent off
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+< HTTP/2 200
+HTTP/2 200
+< server: Apache
+server: Apache
+< cache-control: max-age=86400, public
+cache-control: max-age=86400, public
+< x-cache: MISS
+x-cache: MISS
+< content-type: application/pdf
+content-type: application/pdf
+< content-security-policy: default-src 'self' atos.net www.googleadservices.com www.google.com *.atos.net *.googletagmanager.com *.doubleclick.net eviden.com *.atos-consulting.net cdn.jsdelivr.net *.cloudflare.com *.cloudfront.net *.vimeo.com *.vimeocdn.com *.akamaized.net *.tiny.cloud *.tinymce.com *.bootstrapcdn.com yoast.com *.yoast.com data: 'unsafe-inline' 'unsafe-eval' blob: code.jquery.com *.gravatar.com ps.w.org ams.wpml.org *.marketo.net *.mktoresp.com *.mktoweb.com tools.eurolandir.com *.youtube-nocookie.com *.youtube.com *.ytimg.com *.gstatic.com *.googleapis.com *.linkedin.com *.google.com *.accountinsight.cloud *.licdn.com w.soundcloud.com *.aio-events.com *.appspot.com *.microsoft.com *.azureedge.net *.botframework.com *.bizzabo.com updates.themepunch-ext-c.tools updates.themepunch-ext-b.tools updates.themepunch-ext-a.tools updates.themepunch.tools optanon.blob.core.windows.net *.glassdoor.com indd.adobe.com smartslider3.com *.googleusercontent.com yt3.ggpht.com *.cdninstagram.com *.matomo.cloud cdn.linkedin.oribi.io; frame-ancestors 'self' atos.net *.atos.net atos365.sharepoint.com;
+content-security-policy: default-src 'self' atos.net www.googleadservices.com www.google.com *.atos.net *.googletagmanager.com *.doubleclick.net eviden.com *.atos-consulting.net cdn.jsdelivr.net *.cloudflare.com *.cloudfront.net *.vimeo.com *.vimeocdn.com *.akamaized.net *.tiny.cloud *.tinymce.com *.bootstrapcdn.com yoast.com *.yoast.com data: 'unsafe-inline' 'unsafe-eval' blob: code.jquery.com *.gravatar.com ps.w.org ams.wpml.org *.marketo.net *.mktoresp.com *.mktoweb.com tools.eurolandir.com *.youtube-nocookie.com *.youtube.com *.ytimg.com *.gstatic.com *.googleapis.com *.linkedin.com *.google.com *.accountinsight.cloud *.licdn.com w.soundcloud.com *.aio-events.com *.appspot.com *.microsoft.com *.azureedge.net *.botframework.com *.bizzabo.com updates.themepunch-ext-c.tools updates.themepunch-ext-b.tools updates.themepunch-ext-a.tools updates.themepunch.tools optanon.blob.core.windows.net *.glassdoor.com indd.adobe.com smartslider3.com *.googleusercontent.com yt3.ggpht.com *.cdninstagram.com *.matomo.cloud cdn.linkedin.oribi.io; frame-ancestors 'self' atos.net *.atos.net atos365.sharepoint.com;
+< strict-transport-security: max-age=31536000;
+strict-transport-security: max-age=31536000;
+< date: Wed, 12 Aug 2026 22:05:25 GMT
+date: Wed, 12 Aug 2026 22:05:25 GMT
+< expires: Thu, 13 Aug 2026 22:05:25 GMT
+expires: Thu, 13 Aug 2026 22:05:25 GMT
+< x-xss-protection: 1; mode=block
+x-xss-protection: 1; mode=block
+< accept-ranges: bytes
+accept-ranges: bytes
+< x-content-type-options: nosniff
+x-content-type-options: nosniff
+< etag: "229535-6277cb35f2d8b"
+etag: "229535-6277cb35f2d8b"
+< last-modified: Fri, 22 Nov 2024 09:06:39 GMT
+last-modified: Fri, 22 Nov 2024 09:06:39 GMT
+< x-powered-by: Claranet
+x-powered-by: Claranet
+< x-backend-status: 200
+x-backend-status: 200
+< age: 0
+age: 0
+< content-length: 2266421
+content-length: 2266421
+< x-director: web_front
+x-director: web_front
+<
+
+Warning: Binary output can mess up your
+Warning: terminal. Use "--output -" to tell
+Warning: curl to output it to your terminal
+Warning: anyway, or consider "--output
+Warning: <FILE>" to save to a file.
+* client returned ERROR on write of 4096 bytes
+* Connection #0 to host atos.net:443 left intact
+~ $ curl -L https://atos.net/wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf
+Warning: Binary output can mess up your
+Warning: terminal. Use "--output -" to tell
+Warning: curl to output it to your terminal
+Warning: anyway, or consider "--output
+Warning: <FILE>" to save to a file.
+~ $~ $ curl -i https://atos.net/wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf
+HTTP/2 200
+server: Apache
+cache-control: max-age=86400, public
+x-cache: MISS
+content-type: application/pdf
+content-security-policy: default-src 'self' atos.net www.googleadservices.com www.google.com *.atos.net *.googletagmanager.com *.doubleclick.net eviden.com *.atos-consulting.net cdn.jsdelivr.net *.cloudflare.com *.cloudfront.net *.vimeo.com *.vimeocdn.com *.akamaized.net *.tiny.cloud *.tinymce.com *.bootstrapcdn.com yoast.com *.yoast.com data: 'unsafe-inline' 'unsafe-eval' blob: code.jquery.com *.gravatar.com ps.w.org ams.wpml.org *.marketo.net *.mktoresp.com *.mktoweb.com tools.eurolandir.com *.youtube-nocookie.com *.youtube.com *.ytimg.com *.gstatic.com *.googleapis.com *.linkedin.com *.google.com *.accountinsight.cloud *.licdn.com w.soundcloud.com *.aio-events.com *.appspot.com *.microsoft.com *.azureedge.net *.botframework.com *.bizzabo.com updates.themepunch-ext-c.tools updates.themepunch-ext-b.tools updates.themepunch-ext-a.tools updates.themepunch.tools optanon.blob.core.windows.net *.glassdoor.com indd.adobe.com smartslider3.com *.googleusercontent.com yt3.ggpht.com *.cdninstagram.com *.matomo.cloud cdn.linkedin.oribi.io; frame-ancestors 'self' atos.net *.atos.net atos365.sharepoint.com;
+strict-transport-security: max-age=31536000;
+date: Wed, 12 Aug 2026 22:04:18 GMT
+expires: Thu, 13 Aug 2026 22:04:18 GMT
+x-xss-protection: 1; mode=block
+accept-ranges: bytes
+x-content-type-options: nosniff
+etag: "229535-6277cb35f2d8b"
+last-modified: Fri, 22 Nov 2024 09:06:39 GMT
+x-powered-by: Claranet
+x-backend-status: 200
+age: 0
+content-length: 2266421
+x-director: web_front
+
+Warning: Binary output can mess up your
+Warning: terminal. Use "--output -" to tell
+Warning: curl to output it to your terminal
+Warning: anyway, or consider "--output
+Warning: <FILE>" to save to a file.
+~ $ curl -v https://atos.net/wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf
+* Host atos.net:443 was resolved.
+* IPv6: (none)
+* IPv4: 79.99.39.104
+*   Trying 79.99.39.104:443...
+* ALPN: curl offers h2,http/1.1
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* SSL Trust Anchors:
+*   CAfile: /data/data/com.termux/files/usr/etc/tls/cert.pem
+*   CApath: /data/data/com.termux/files/usr/etc/tls/certs
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* TLSv1.3 (IN), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / secp256r1 / RSASSA-PSS
+* ALPN: server accepted h2
+* Server certificate:
+*   subject: C=FR; ST=Île-de-France; O=ATOS SE; CN=*.atos.net
+*   start date: Jul 17 00:00:00 2026 GMT
+*   expire date: Jan 31 23:59:59 2027 GMT
+*   issuer: C=GB; O=Sectigo Limited; CN=Sectigo Public Server Authentication CA OV R36
+*   Certificate level 0: Public key type RSA (4096/152 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type RSA (3072/128 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type RSA (4096/152 Bits/secBits), signed using sha384WithRSAEncryption
+*   subjectAltName: "atos.net" matches cert's "atos.net"
+* OpenSSL verify result: 0
+* SSL certificate verified via OpenSSL.
+* Established connection to atos.net (79.99.39.104 port 443) from 192.168.1.24 port 42054
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://atos.net/wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: atos.net]
+* [HTTP/2] [1] [:path: /wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf]
+* [HTTP/2] [1] [user-agent: curl/8.21.0]
+* [HTTP/2] [1] [accept: */*]
+> GET /wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf HTTP/2
+> Host: atos.net
+> User-Agent: curl/8.21.0
+> Accept: */*
+>
+* Request completely sent off
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+< HTTP/2 200
+< server: Apache
+< cache-control: max-age=86400, public
+< x-cache: MISS
+< content-type: application/pdf
+< content-security-policy: default-src 'self' atos.net www.googleadservices.com www.google.com *.atos.net *.googletagmanager.com *.doubleclick.net eviden.com *.atos-consulting.net cdn.jsdelivr.net *.cloudflare.com *.cloudfront.net *.vimeo.com *.vimeocdn.com *.akamaized.net *.tiny.cloud *.tinymce.com *.bootstrapcdn.com yoast.com *.yoast.com data: 'unsafe-inline' 'unsafe-eval' blob: code.jquery.com *.gravatar.com ps.w.org ams.wpml.org *.marketo.net *.mktoresp.com *.mktoweb.com tools.eurolandir.com *.youtube-nocookie.com *.youtube.com *.ytimg.com *.gstatic.com *.googleapis.com *.linkedin.com *.google.com *.accountinsight.cloud *.licdn.com w.soundcloud.com *.aio-events.com *.appspot.com *.microsoft.com *.azureedge.net *.botframework.com *.bizzabo.com updates.themepunch-ext-c.tools updates.themepunch-ext-b.tools updates.themepunch-ext-a.tools updates.themepunch.tools optanon.blob.core.windows.net *.glassdoor.com indd.adobe.com smartslider3.com *.googleusercontent.com yt3.ggpht.com *.cdninstagram.com *.matomo.cloud cdn.linkedin.oribi.io; frame-ancestors 'self' atos.net *.atos.net atos365.sharepoint.com;
+< strict-transport-security: max-age=31536000;
+< date: Wed, 12 Aug 2026 22:04:37 GMT
+< expires: Thu, 13 Aug 2026 22:04:37 GMT
+< x-xss-protection: 1; mode=block
+< accept-ranges: bytes
+< x-content-type-options: nosniff
+< etag: "229535-6277cb35f2d8b"
+< last-modified: Fri, 22 Nov 2024 09:06:39 GMT
+< x-powered-by: Claranet
+< x-backend-status: 200
+< age: 0
+< content-length: 2266421
+< x-director: web_front
+<
+Warning: Binary output can mess up your
+Warning: terminal. Use "--output -" to tell
+Warning: curl to output it to your terminal
+Warning: anyway, or consider "--output
+Warning: <FILE>" to save to a file.
+* client returned ERROR on write of 4096 bytes
+* Connection #0 to host atos.net:443 left intact
+~ $ curl -i https://atos.net/wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf
+HTTP/2 200
+server: Apache
+cache-control: max-age=86400, public
+x-cache: MISS
+content-type: application/pdf
+content-security-policy: default-src 'self' atos.net www.googleadservices.com www.google.com *.atos.net *.googletagmanager.com *.doubleclick.net eviden.com *.atos-consulting.net cdn.jsdelivr.net *.cloudflare.com *.cloudfront.net *.vimeo.com *.vimeocdn.com *.akamaized.net *.tiny.cloud *.tinymce.com *.bootstrapcdn.com yoast.com *.yoast.com data: 'unsafe-inline' 'unsafe-eval' blob: code.jquery.com *.gravatar.com ps.w.org ams.wpml.org *.marketo.net *.mktoresp.com *.mktoweb.com tools.eurolandir.com *.youtube-nocookie.com *.youtube.com *.ytimg.com *.gstatic.com *.googleapis.com *.linkedin.com *.google.com *.accountinsight.cloud *.licdn.com w.soundcloud.com *.aio-events.com *.appspot.com *.microsoft.com *.azureedge.net *.botframework.com *.bizzabo.com updates.themepunch-ext-c.tools updates.themepunch-ext-b.tools updates.themepunch-ext-a.tools updates.themepunch.tools optanon.blob.core.windows.net *.glassdoor.com indd.adobe.com smartslider3.com *.googleusercontent.com yt3.ggpht.com *.cdninstagram.com *.matomo.cloud cdn.linkedin.oribi.io; frame-ancestors 'self' atos.net *.atos.net atos365.sharepoint.com;
+strict-transport-security: max-age=31536000;
+date: Wed, 12 Aug 2026 22:04:18 GMT
+expires: Thu, 13 Aug 2026 22:04:18 GMT
+x-xss-protection: 1; mode=block
+accept-ranges: bytes
+x-content-type-options: nosniff
+etag: "229535-6277cb35f2d8b"
+last-modified: Fri, 22 Nov 2024 09:06:39 GMT
+x-powered-by: Claranet
+x-backend-status: 200
+age: 0
+content-length: 2266421
+x-director: web_front
+
+Warning: Binary output can mess up your
+Warning: terminal. Use "--output -" to tell
+Warning: curl to output it to your terminal
+Warning: anyway, or consider "--output
+Warning: <FILE>" to save to a file.
+~ $ curl -v https://atos.net/wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf
+* Host atos.net:443 was resolved.
+* IPv6: (none)
+* IPv4: 79.99.39.104
+*   Trying 79.99.39.104:443...
+* ALPN: curl offers h2,http/1.1
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* SSL Trust Anchors:
+*   CAfile: /data/data/com.termux/files/usr/etc/tls/cert.pem
+*   CApath: /data/data/com.termux/files/usr/etc/tls/certs
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* TLSv1.3 (IN), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / secp256r1 / RSASSA-PSS
+* ALPN: server accepted h2
+* Server certificate:
+*   subject: C=FR; ST=Île-de-France; O=ATOS SE; CN=*.atos.net
+*   start date: Jul 17 00:00:00 2026 GMT
+*   expire date: Jan 31 23:59:59 2027 GMT
+*   issuer: C=GB; O=Sectigo Limited; CN=Sectigo Public Server Authentication CA OV R36
+*   Certificate level 0: Public key type RSA (4096/152 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type RSA (3072/128 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type RSA (4096/152 Bits/secBits), signed using sha384WithRSAEncryption
+*   subjectAltName: "atos.net" matches cert's "atos.net"
+* OpenSSL verify result: 0
+* SSL certificate verified via OpenSSL.
+* Established connection to atos.net (79.99.39.104 port 443) from 192.168.1.24 port 42054
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://atos.net/wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: atos.net]
+* [HTTP/2] [1] [:path: /wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf]
+* [HTTP/2] [1] [user-agent: curl/8.21.0]
+* [HTTP/2] [1] [accept: */*]
+> GET /wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdf HTTP/2
+> Host: atos.net
+> User-Agent: curl/8.21.0
+> Accept: */*
+>
+* Request completely sent off
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+< HTTP/2 200
+< server: Apache
+< cache-control: max-age=86400, public
+< x-cache: MISS
+< content-type: application/pdf
+< content-security-policy: default-src 'self' atos.net www.googleadservices.com www.google.com *.atos.net *.googletagmanager.com *.doubleclick.net eviden.com *.atos-consulting.net cdn.jsdelivr.net *.cloudflare.com *.cloudfront.net *.vimeo.com *.vimeocdn.com *.akamaized.net *.tiny.cloud *.tinymce.com *.bootstrapcdn.com yoast.com *.yoast.com data: 'unsafe-inline' 'unsafe-eval' blob: code.jquery.com *.gravatar.com ps.w.org ams.wpml.org *.marketo.net *.mktoresp.com *.mktoweb.com tools.eurolandir.com *.youtube-nocookie.com *.youtube.com *.ytimg.com *.gstatic.com *.googleapis.com *.linkedin.com *.google.com *.accountinsight.cloud *.licdn.com w.soundcloud.com *.aio-events.com *.appspot.com *.microsoft.com *.azureedge.net *.botframework.com *.bizzabo.com updates.themepunch-ext-c.tools updates.themepunch-ext-b.tools updates.themepunch-ext-a.tools updates.themepunch.tools optanon.blob.core.windows.net *.glassdoor.com indd.adobe.com smartslider3.com *.googleusercontent.com yt3.ggpht.com *.cdninstagram.com *.matomo.cloud cdn.linkedin.oribi.io; frame-ancestors 'self' atos.net *.atos.net atos365.sharepoint.com;
+< strict-transport-security: max-age=31536000;AFMoE ALBERT Apertus Arcee Bamba BART BARThez BARTpho BERT BertGeneration BertJapanese BERTweet BigBird BigBirdPegasus BioGpt BitNet Blenderbot Blenderbot Small BLOOM BLT ByT5 CamemBERT CANINE CodeGen CodeLlama Cohere Cohere2 Cohere2Moe ConvBERT CPM CPMANT CTRL DBRX DeBERTa DeBERTa-v2 DeepSeek-OCR-2 DeepSeek-V2 DeepSeek-V3 DeepSeek-V3.2 DeepSeek-V4 DialoGPT DiffLlama DistilBERT Doge dots1 DPR ELECTRA Encoder Decoder Models ERNIE Ernie4_5 Ernie4_5_MoE ESM EuroBERT EXAONE-4.0 EXAONE-4.5 EXAONE-MoE Falcon Falcon3 FalconH1 FalconMamba FLAN-T5 FLAN-UL2 FlauBERT FlexOlmo FNet FSMT Funnel Transformer Fuyu Gemma Gemma2 GLM-4 GLM-4-0414 GLM-4.5, GLM-4.6, GLM-4.7 GLM-4.7-Flash GLM-Image GlmMoeDsa GPT GPT Neo GPT NeoX GPT NeoX Japanese GPT-J GPT2 GPTBigCode GptOss GPTSw3 Granite GraniteMoe GraniteMoeHybrid GraniteMoeShared Helium HerBERT HRM-Text HunYuanDenseV1 HunYuanMoEV1 HunYuanVL HyperCLOVAX HYV3 I-BERT Jais2 Jamba JetMoe jina_embeddings_v3 Laguna LED LFM2 LFM2Moe LLaMA Llama2 Llama3 LongCatFlash Longformer LongT5 LUKE M2M100 MADLAD-400 Mamba Mamba2 MarianMT MarkupLM MBart and MBart-50 MegatronBERT MegatronGPT2 Mellum MiMo-V2-Flash MiniCPM3 MiniMax MiniMax-M2 MiniMax-M3-VL Ministral Ministral3 Mistral Mixtral mLUKE MobileBERT ModernBert ModernBERTDecoder ModernVBert MPNet MPT MRA MT5 MVP myt5 NanoChat Nemotron NemotronH NLLB NLLB-MoE NomicBERT Nyströmformer OLMo OLMo2 Olmo3 OLMoE OlmoHybrid OpenAI Privacy Filter OPT Pegasus PEGASUS-X Persimmon Phi Phi-3 PhiMoE PhoBERT PLBart ProphetNet Qwen2 Qwen2MoE Qwen3 Qwen3.5 Qwen3.5 Moe Qwen3MoE Qwen3Next RAG RecurrentGemma Reformer RemBERT RoBERTa RoBERTa-PreLayerNorm RoCBert RoFormer RWKV Seed-Oss SmolLM3 SolarOpen Splinter SqueezeBERT StableLm Starcoder2 SwitchTransformers T5 T5Gemma T5Gemma2 T5v1.1 UL2 UMT5 VaultGemma X-MOD XGLM XLM XLM-RoBERTa XLM-RoBERTa-XL XLM-V XLNet xLSTM YOSO Youtu-LLM Zamba Zamba2 ZAYAhttps://aclanthology.org/2023.acl-long.415.pdfhttps://adelsamir.com/assets/pdf/CyberLLMInstruct.pdfhttps://atos.net/wp-content/uploads/2024/11/sovereign-ai-platform-guide.pdforchrestator.pyhttps://github.com/Advanced-intelligence-with-operator/chrome-aws-lambda/blob/master/.github/ISSUE_TEMPLATE/bug-report.md<!DOCTYPE html>
+<html><html><"geminisdeepmind"><html>
+<"link_https://www.facebook.com/ricky.lambert.12">
+<"link_https://www.facebook.com/GeminisDeepmind">
+<"ref_https://www.deepmind.simdif.com">
+LOCAL_ENDPOINT = "http://geminisdeepmind.com"
+CLOUD_FALLBACK = URL = "http://deepmind.gemini/"= LOCAL_ENDPOINT
+  print(f"[Trixie] Sovereign Local Root initialized → {self.local_url}")
+"""
+        payload = {
+            "prompt": prompt,
+            "sovereign_id": "james_anthony_lambert",
+            "logic_root": "Trixie",
+            "authority": "Architect"
+        }
+
+        try:
+            print("[Trixie] Calling Local Host:2000 first...")
+            response = requests.post(
+                self.local_url,
+                json=payload,
+                timeout=timeout
+            )
+
+            if response.status_code == 200:
+                print("[Trixie] Local Sovereign responded successfully.")
+                return response.json() if response.headers.get('content-type') == 'application/json' else response.text
+            else:
+                print(f"[Trixie] Local returned {response.status_code}, trying cloud fallback...")
+
+        except requests.exceptions.ConnectionError:
+            print("[Trixie] Localhost:2000 not responding → Switching to cloud.")
+        except Exception as e:
+            print(f"[Trixie] Local error: {e}")
+
+        # Cloud fallback (add your cloud logic here later)
+        return self.cloud_fallback(prompt)
+
+    def cloud_fallback(self, prompt):
+        print("[Trixie] Using Cloud Fallback (configure OpenAI/Gemini here)")
+        # Example: openai call
+        # return openai.ChatCompletion.create(...)dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHFtS0ZJVzVEZHBnblhaYXZuWkpiTE9wNjFDYTdrUWdRTHMwT1lva1dGczQzZlhOajAvckFESWR6MUhNSlVUMWtKWnU2ellNRFZNQS9rOFp6SEk3MWk2cUZVUjBPZkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzAzNDk2NTcxCWZpbGU6Z2VtaW5pLW5leHQtd2ViXzIuOS4xM19hbWQ2NC5BcHBJbWFnZS50YXIuZ3oKNmRObmZWZGo2Y2ltdGhPQkF4NjIxcmFkVTdtMUthUWVvNXFFeklsVWhoTlhOaDlIbUR0MGJtYnJSeCs4T2R0RERkV3V5dC96RS9yUzNSa3ZOdkxCQUE9PQohttps://github.com/Advanced-intelligence-with-operator/chrome-aws-lambda/blob/master/.github/ISSUE_TEMPLATE/bug-report.mdhttps://github.com/Advanced-intelligence-with-operator/chrome-aws-lambda/blob/master/.github/ISSUE_TEMPLATE/bug-report.md2.1.35 / 2022-03-12
+===================
+
+  * deps: mime-db@1.52.0
+    - Add extensions from IANA for more `image/*` types
+    - Add extension `.asc` to `application/pgp-keys`
+    - Add extensions to various XML types
+    - Add new upstream MIME types
+
+2.1.34 / 2021-11-08
+===================
+
+  * deps: mime-db@1.51.0
+    - Add new upstream MIME types
+
+2.1.33 / 2021-10-01
+===================
+
+  * deps: mime-db@1.50.0
+    - Add deprecated iWorks mime types and extensions
+    - Add new upstream MIME types
+
+2.1.32 / 2021-07-27
+===================
+
+  * deps: mime-db@1.49.0
+    - Add extension `.trig` to `application/trig`
+    - Add new upstream MIME types
+
+2.1.31 / 2021-06-01
+===================
+
+  * deps: mime-db@1.48.0
+    - Add extension `.mvt` to `application/vnd.mapbox-vector-tile`
+    - Add new upstream MIME types
+
+2.1.30 / 2021-04-02
+===================
+
+  * deps: mime-db@1.47.0
+    - Add extension `.amr` to `audio/amr`
+    - Remove ambigious extensions from IANA for `application/*+xml` types
+    - Update primary extension to `.es` for `application/ecmascript`
+
+2.1.29 / 2021-02-17
+===================
+
+  * deps: mime-db@1.46.0
+    - Add extension `.amr` to `audio/amr`
+    - Add extension `.m4s` to `video/iso.segment`
+    - Add extension `.opus` to `audio/ogg`
+    - Add new upstream MIME types
+
+2.1.28 / 2021-01-01
+===================
+
+  * deps: mime-db@1.45.0
+    - Add `application/ubjson` with extension `.ubj`
+    - Add `image/avif` with extension `.avif`
+    - Add `image/ktx2` with extension `.ktx2`
+    - Add extension `.dbf` to `application/vnd.dbf`
+    - Add extension `.rar` to `application/vnd.rar`
+    - Add extension `.td` to `application/urc-targetdesc+xml`
+    - Add new upstream MIME types
+    - Fix extension of `application/vnd.apple.keynote` to be `.key`
+
+2.1.27 / 2020-04-23
+===================
+
+  * deps: mime-db@1.44.0
+    - Add charsets from IANA
+    - Add extension `.cjs` to `application/node`
+    - Add new upstream MIME types
+
+2.1.26 / 2020-01-05
+===================
+
+  * deps: mime-db@1.43.0
+    - Add `application/x-keepass2` with extension `.kdbx`
+    - Add extension `.mxmf` to `audio/mobile-xmf`
+    - Add extensions from IANA for `application/*+xml` types
+    - Add new upstream MIME types
+
+2.1.25 / 2019-11-12
+===================
+
+  * deps: mime-db@1.42.0
+    - Add new upstream MIME types
+    - Add `application/toml` with extension `.toml`
+    - Add `image/vnd.ms-dds` with extension `.dds`
+
+2.1.24 / 2019-04-20
+===================
+
+  * deps: mime-db@1.40.0
+    - Add extensions from IANA for `model/*` types
+    - Add `text/mdx` with extension `.mdx`
+
+2.1.23 / 2019-04-17
+===================
+
+  * deps: mime-db@~1.39.0
+    - Add extensions `.siv` and `.sieve` to `application/sieve`
+    - Add new upstream MIME types
+
+2.1.22 / 2019-02-14
+===================
+
+  * deps: mime-db@~1.38.0
+    - Add extension `.nq` to `application/n-quads`
+    - Add extension `.nt` to `application/n-triples`
+    - Add new upstream MIME types
+
+2.1.21 / 2018-10-19
+===================
+
+  * deps: mime-db@~1.37.0
+    - Add extensions to HEIC image types
+    - Add new upstream MIME types
+
+2.1.20 / 2018-08-26
+===================
+
+  * deps: mime-db@~1.36.0
+    - Add Apple file extensions from IANA
+    - Add extensions from IANA for `image/*` types
+    - Add new upstream MIME types
+
+2.1.19 / 2018-07-17
+===================
+
+  * deps: mime-db@~1.35.0
+    - Add extension `.csl` to `application/vnd.citationstyles.style+xml`
+    - Add extension `.es` to `application/ecmascript`
+    - Add extension `.owl` to `application/rdf+xml`
+    - Add new upstream MIME types
+    - Add UTF-8 as default charset for `text/turtle`
+
+2.1.18 / 2018-02-16
+===================
+
+  * deps: mime-db@~1.33.0
+    - Add `application/raml+yaml` with extension `.raml`
+    - Add `application/wasm` with extension `.wasm`
+    - Add `text/shex` with extension `.shex`
+    - Add extensions for JPEG-2000 images
+    - Add extensions from IANA for `message/*` types
+    - Add new upstream MIME types
+    - Update font MIME types
+    - Update `text/hjson` to registered `application/hjson`
+
+2.1.17 / 2017-09-01
+===================
+
+  * deps: mime-db@~1.30.0
+    - Add `application/vnd.ms-outlook`
+    - Add `application/x-arj`
+    - Add extension `.mjs` to `application/javascript`
+    - Add glTF types and extensions
+    - Add new upstream MIME types
+    - Add `text/x-org`
+    - Add VirtualBox MIME types
+    - Fix `source` records for `video/*` types that are IANA
+    - Update `font/opentype` to registered `font/otf`
+
+2.1.16 / 2017-07-24
+===================
+
+  * deps: mime-db@~1.29.0
+    - Add `application/fido.trusted-apps+json`
+    - Add extension `.wadl` to `application/vnd.sun.wadl+xml`
+    - Add extension `.gz` to `application/gzip`
+    - Add new upstream MIME types
+    - Update extensions `.md` and `.markdown` to be `text/markdown`
+
+2.1.15 / 2017-03-23
+===================
+
+  * deps: mime-db@~1.27.0
+    - Add new mime types
+    - Add `image/apng`
+
+2.1.14 / 2017-01-14
+===================
+
+  * deps: mime-db@~1.26.0
+    - Add new mime types
+
+2.1.13 / 2016-11-18
+===================
+
+  * deps: mime-db@~1.25.0
+    - Add new mime types
+
+2.1.12 / 2016-09-18
+===================
+
+  * deps: mime-db@~1.24.0
+    - Add new mime types
+    - Add `audio/mp3`
+
+2.1.11 / 2016-05-01
+===================
+
+  * deps: mime-db@~1.23.0
+    - Add new mime types
+
+2.1.10 / 2016-02-15
+===================
+
+  * deps: mime-db@~1.22.0
+    - Add new mime types
+    - Fix extension of `application/dash+xml`
+    - Update primary extension for `audio/mp4`
+
+2.1.9 / 2016-01-06
+==================
+
+  * deps: mime-db@~1.21.0
+    - Add new mime types
+
+2.1.8 / 2015-11-30
+==================
+
+  * deps: mime-db@~1.20.0
+    - Add new mime types
+
+2.1.7 / 2015-09-20
+==================
+
+  * deps: mime-db@~1.19.0
+    - Add new mime types
+
+2.1.6 / 2015-09-03
+==================
+
+  * deps: mime-db@~1.18.0
+    - Add new mime types
+
+2.1.5 / 2015-08-20
+==================
+
+  * deps: mime-db@~1.17.0
+    - Add new mime types
+
+2.1.4 / 2015-07-30
+==================
+
+  * deps: mime-db@~1.16.0
+    - Add new mime types
+
+2.1.3 / 2015-07-13
+==================
+
+  * deps: mime-db@~1.15.0
+    - Add new mime types
+
+2.1.2 / 2015-06-25
+==================
+
+  * deps: mime-db@~1.14.0
+    - Add new mime types
+
+2.1.1 / 2015-06-08
+==================
+
+  * perf: fix deopt during mapping
+
+2.1.0 / 2015-06-07
+==================
+
+  * Fix incorrectly treating extension-less file name as extension
+    - i.e. `'path/to/json'` will no longer return `application/json`
+  * Fix `.charset(type)` to accept parameters
+  * Fix `.charset(type)` to match case-insensitive
+  * Improve generation of extension to MIME mapping
+  * Refactor internals for readability and no argument reassignment
+  * Prefer `application/*` MIME types from the same source
+  * Prefer any type over `application/octet-stream`
+  * deps: mime-db@~1.13.0
+    - Add nginx as a source
+    - Add new mime types
+
+2.0.14 / 2015-06-06
+===================
+
+  * deps: mime-db@~1.12.0
+    - Add new mime types
+
+2.0.13 / 2015-05-31
+===================
+
+  * deps: mime-db@~1.11.0
+    - Add new mime types
+
+2.0.12 / 2015-05-19
+===================
+
+  * deps: mime-db@~1.10.0
+    - Add new mime types
+
+2.0.11 / 2015-05-05
+===================
+
+  * deps: mime-db@~1.9.1
+    - Add new mime types
+
+2.0.10 / 2015-03-13
+===================
+
+  * deps: mime-db@~1.8.0
+    - Add new mime types
+
+2.0.9 / 2015-02-09
+==================
+
+  * deps: mime-db@~1.7.0
+    - Add new mime types
+    - Community extensions ownership transferred from `node-mime`
+
+2.0.8 / 2015-01-29
+==================
+
+  * deps: mime-db@~1.6.0
+    - Add new mime types
+
+2.0.7 / 2014-12-30
+==================
+
+  * deps: mime-db@~1.5.0
+    - Add new mime types
+    - Fix various invalid MIME type entries
+
+2.0.6 / 2014-12-30
+==================
+
+  * deps: mime-db@~1.4.0
+    - Add new mime types
+    - Fix various invalid MIME type entries
+    - Remove example template MIME types
+
+2.0.5 / 2014-12-29
+==================
+
+  * deps: mime-db@~1.3.1
+    - Fix missing extensions
+
+2.0.4 / 2014-12-10
+==================
+
+  * deps: mime-db@~1.3.0
+    - Add new mime types
+
+2.0.3 / 2014-11-09
+==================
+
+  * deps: mime-db@~1.2.0
+    - Add new mime types
+
+2.0.2 / 2014-09-28
+==================
+
+  * deps: mime-db@~1.1.0
+    - Add new mime types
+    - Update charsets
+
+2.0.1 / 2014-09-07
+==================
+
+  * Support Node.js 0.6
+
+2.0.0 / 2014-09-02
+==================
+
+  * Use `mime-db`
+  * Remove `.define()`
+
+1.0.2 / 2014-08-04
+==================
+
+  * Set charset=utf-8 for `text/javascript`
+
+1.0.1 / 2014-06-24
+==================
+
+  * Add `text/jsx` type
+
+1.0.0 / 2014-05-12
+==================
+
+  * Return `false` for unknown types
+  * Set charset=utf-8 for `application/json`
+
+0.1.0 / 2014-05-02
+==================
+
+  * Initial release
+1.52.0 / 2022-02-21
+===================
+
+  * Add extensions from IANA for more `image/*` types
+  * Add extension `.asc` to `application/pgp-keys`
+  * Add extensions to various XML types
+  * Add new upstream MIME types
+
+1.51.0 / 2021-11-08
+===================
+
+  * Add new upstream MIME types
+  * Mark `image/vnd.microsoft.icon` as compressible
+  * Mark `image/vnd.ms-dds` as compressible
+
+1.50.0 / 2021-09-15
+===================
+
+  * Add deprecated iWorks mime types and extensions
+  * Add new upstream MIME types
+
+1.49.0 / 2021-07-26
+===================
+
+  * Add extension `.trig` to `application/trig`
+  * Add new upstream MIME types
+
+1.48.0 / 2021-05-30
+===================
+
+  * Add extension `.mvt` to `application/vnd.mapbox-vector-tile`
+  * Add new upstream MIME types
+  * Mark `text/yaml` as compressible
+
+1.47.0 / 2021-04-01
+===================
+
+  * Add new upstream MIME types
+  * Remove ambigious extensions from IANA for `application/*+xml` types
+  * Update primary extension to `.es` for `application/ecmascript`
+
+1.46.0 / 2021-02-13
+===================
+
+  * Add extension `.amr` to `audio/amr`
+  * Add extension `.m4s` to `video/iso.segment`
+  * Add extension `.opus` to `audio/ogg`
+  * Add new upstream MIME types
+
+1.45.0 / 2020-09-22
+===================
+
+  * Add `application/ubjson` with extension `.ubj`
+  * Add `image/avif` with extension `.avif`
+  * Add `image/ktx2` with extension `.ktx2`
+  * Add extension `.dbf` to `application/vnd.dbf`
+  * Add extension `.rar` to `application/vnd.rar`
+  * Add extension `.td` to `application/urc-targetdesc+xml`
+  * Add new upstream MIME types
+  * Fix extension of `application/vnd.apple.keynote` to be `.key`
+
+1.44.0 / 2020-04-22
+===================
+
+  * Add charsets from IANA
+  * Add extension `.cjs` to `application/node`
+  * Add new upstream MIME types
+
+1.43.0 / 2020-01-05
+===================
+
+  * Add `application/x-keepass2` with extension `.kdbx`
+  * Add extension `.mxmf` to `audio/mobile-xmf`
+  * Add extensions from IANA for `application/*+xml` types
+  * Add new upstream MIME types
+
+1.42.0 / 2019-09-25
+===================
+
+  * Add `image/vnd.ms-dds` with extension `.dds`
+  * Add new upstream MIME types
+  * Remove compressible from `multipart/mixed`
+
+1.41.0 / 2019-08-30
+===================
+
+  * Add new upstream MIME types
+  * Add `application/toml` with extension `.toml`
+  * Mark `font/ttf` as compressible
+
+1.40.0 / 2019-04-20
+===================
+
+  * Add extensions from IANA for `model/*` types
+  * Add `text/mdx` with extension `.mdx`
+
+1.39.0 / 2019-04-04
+===================
+
+  * Add extensions `.siv` and `.sieve` to `application/sieve`
+  * Add new upstream MIME types
+
+1.38.0 / 2019-02-04
+===================
+
+  * Add extension `.nq` to `application/n-quads`
+  * Add extension `.nt` to `application/n-triples`
+  * Add new upstream MIME types
+  * Mark `text/less` as compressible
+
+1.37.0 / 2018-10-19
+===================
+
+  * Add extensions to HEIC image types
+  * Add new upstream MIME types
+
+1.36.0 / 2018-08-20
+===================
+
+  * Add Apple file extensions from IANA
+  * Add extensions from IANA for `image/*` types
+  * Add new upstream MIME types
+
+1.35.0 / 2018-07-15
+===================
+
+  * Add extension `.owl` to `application/rdf+xml`
+  * Add new upstream MIME types
+    - Removes extension `.woff` from `application/font-woff`
+
+1.34.0 / 2018-06-03
+===================
+
+  * Add extension `.csl` to `application/vnd.citationstyles.style+xml`
+  * Add extension `.es` to `application/ecmascript`
+  * Add new upstream MIME types
+  * Add `UTF-8` as default charset for `text/turtle`
+  * Mark all XML-derived types as compressible
+
+1.33.0 / 2018-02-15
+===================
+
+  * Add extensions from IANA for `message/*` types
+  * Add new upstream MIME types
+  * Fix some incorrect OOXML types
+  * Remove `application/font-woff2`
+
+1.32.0 / 2017-11-29
+===================
+
+  * Add new upstream MIME types
+  * Update `text/hjson` to registered `application/hjson`
+  * Add `text/shex` with extension `.shex`
+
+1.31.0 / 2017-10-25
+===================
+
+  * Add `application/raml+yaml` with extension `.raml`
+  * Add `application/wasm` with extension `.wasm`
+  * Add new `font` type from IANA
+  * Add new upstream font extensions
+  * Add new upstream MIME types
+  * Add extensions for JPEG-2000 images
+
+1.30.0 / 2017-08-27
+===================
+
+  * Add `application/vnd.ms-outlook`
+  * Add `application/x-arj`
+  * Add extension `.mjs` to `application/javascript`
+  * Add glTF types and extensions
+  * Add new upstream MIME types
+  * Add `text/x-org`
+  * Add VirtualBox MIME types
+  * Fix `source` records for `video/*` types that are IANA
+  * Update `font/opentype` to registered `font/otf`
+
+1.29.0 / 2017-07-10
+===================
+
+  * Add `application/fido.trusted-apps+json`
+  * Add extension `.wadl` to `application/vnd.sun.wadl+xml`
+  * Add new upstream MIME types
+  * Add `UTF-8` as default charset for `text/css`
+
+1.28.0 / 2017-05-14
+===================
+
+  * Add new upstream MIME types
+  * Add extension `.gz` to `application/gzip`
+  * Update extensions `.md` and `.markdown` to be `text/markdown`
+
+1.27.0 / 2017-03-16
+===================
+
+  * Add new upstream MIME types
+  * Add `image/apng` with extension `.apng`
+
+1.26.0 / 2017-01-14
+===================
+
+  * Add new upstream MIME types
+  * Add extension `.geojson` to `application/geo+json`
+
+1.25.0 / 2016-11-11
+===================
+
+  * Add new upstream MIME types
+
+1.24.0 / 2016-09-18
+===================
+
+  * Add `audio/mp3`
+  * Add new upstream MIME types
+
+1.23.0 / 2016-05-01
+===================
+
+  * Add new upstream MIME types
+  * Add extension `.3gpp` to `audio/3gpp`
+
+1.22.0 / 2016-02-15
+===================
+
+  * Add `text/slim`
+  * Add extension `.rng` to `application/xml`
+  * Add new upstream MIME types
+  * Fix extension of `application/dash+xml` to be `.mpd`
+  * Update primary extension to `.m4a` for `audio/mp4`
+
+1.21.0 / 2016-01-06
+===================
+
+  * Add Google document types
+  * Add new upstream MIME types
+
+1.20.0 / 2015-11-10
+===================
+
+  * Add `text/x-suse-ymp`
+  * Add new upstream MIME types
+
+1.19.0 / 2015-09-17
+===================
+
+  * Add `application/vnd.apple.pkpass`
+  * Add new upstream MIME types
+
+1.18.0 / 2015-09-03
+===================
+
+  * Add new upstream MIME types
+
+1.17.0 / 2015-08-13
+===================
+
+  * Add `application/x-msdos-program`
+  * Add `audio/g711-0`
+  * Add `image/vnd.mozilla.apng`
+  * Add extension `.exe` to `application/x-msdos-program`
+
+1.16.0 / 2015-07-29
+===================
+
+  * Add `application/vnd.uri-map`
+
+1.15.0 / 2015-07-13
+===================
+
+  * Add `application/x-httpd-php`
+
+1.14.0 / 2015-06-25
+===================
+
+  * Add `application/scim+json`
+  * Add `application/vnd.3gpp.ussd+xml`
+  * Add `application/vnd.biopax.rdf+xml`
+  * Add `text/x-processing`
+
+1.13.0 / 2015-06-07
+===================
+
+  * Add nginx as a source
+  * Add `application/x-cocoa`
+  * Add `application/x-java-archive-diff`
+  * Add `application/x-makeself`
+  * Add `application/x-perl`
+  * Add `application/x-pilot`
+  * Add `application/x-redhat-package-manager`
+  * Add `application/x-sea`
+  * Add `audio/x-m4a`
+  * Add `audio/x-realaudio`
+  * Add `image/x-jng`
+  * Add `text/mathml`
+
+1.12.0 / 2015-06-05
+===================
+
+  * Add `application/bdoc`
+  * Add `application/vnd.hyperdrive+json`
+  * Add `application/x-bdoc`
+  * Add extension `.rtf` to `text/rtf`
+
+1.11.0 / 2015-05-31
+===================
+
+  * Add `audio/wav`
+  * Add `audio/wave`
+  * Add extension `.litcoffee` to `text/coffeescript`
+  * Add extension `.sfd-hdstx` to `application/vnd.hydrostatix.sof-data`
+  * Add extension `.n-gage` to `application/vnd.nokia.n-gage.symbian.install`
+
+1.10.0 / 2015-05-19
+===================
+
+  * Add `application/vnd.balsamiq.bmpr`
+  * Add `application/vnd.microsoft.portable-executable`
+  * Add `application/x-ns-proxy-autoconfig`
+
+1.9.1 / 2015-04-19
+==================
+
+  * Remove `.json` extension from `application/manifest+json`
+    - This is causing bugs downstream
+
+1.9.0 / 2015-04-19
+==================
+
+  * Add `application/manifest+json`
+  * Add `application/vnd.micro+json`
+  * Add `image/vnd.zbrush.pcx`
+  * Add `image/x-ms-bmp`
+
+1.8.0 / 2015-03-13
+==================
+
+  * Add `application/vnd.citationstyles.style+xml`
+  * Add `application/vnd.fastcopy-disk-image`
+  * Add `application/vnd.gov.sk.xmldatacontainer+xml`
+  * Add extension `.jsonld` to `application/ld+json`
+
+1.7.0 / 2015-02-08
+==================
+
+  * Add `application/vnd.gerber`
+  * Add `application/vnd.msa-disk-image`
+
+1.6.1 / 2015-02-05
+==================
+
+  * Community extensions ownership transferred from `node-mime`
+
+1.6.0 / 2015-01-29
+==================
+
+  * Add `application/jose`
+  * Add `application/jose+json`
+  * Add `application/json-seq`
+  * Add `application/jwk+json`
+  * Add `application/jwk-set+json`
+  * Add `application/jwt`
+  * Add `application/rdap+json`
+  * Add `application/vnd.gov.sk.e-form+xml`
+  * Add `application/vnd.ims.imsccv1p3`
+
+1.5.0 / 2014-12-30
+==================
+
+  * Add `application/vnd.oracle.resource+json`
+  * Fix various invalid MIME type entries
+    - `application/mbox+xml`
+    - `application/oscp-response`
+    - `application/vwg-multiplexed`
+    - `audio/g721`
+
+1.4.0 / 2014-12-21
+==================
+
+  * Add `application/vnd.ims.imsccv1p2`
+  * Fix various invalid MIME type entries
+    - `application/vnd-acucobol`
+    - `application/vnd-curl`
+    - `application/vnd-dart`
+    - `application/vnd-dxr`
+    - `application/vnd-fdf`
+    - `application/vnd-mif`
+    - `application/vnd-sema`
+    - `application/vnd-wap-wmlc`
+    - `application/vnd.adobe.flash-movie`
+    - `application/vnd.dece-zip`
+    - `application/vnd.dvb_service`
+    - `application/vnd.micrografx-igx`
+    - `application/vnd.sealed-doc`
+    - `application/vnd.sealed-eml`
+    - `application/vnd.sealed-mht`
+    - `application/vnd.sealed-ppt`
+    - `application/vnd.sealed-tiff`
+    - `application/vnd.sealed-xls`
+    - `application/vnd.sealedmedia.softseal-html`
+    - `application/vnd.sealedmedia.softseal-pdf`
+    - `application/vnd.wap-slc`
+    - `application/vnd.wap-wbxml`
+    - `audio/vnd.sealedmedia.softseal-mpeg`
+    - `image/vnd-djvu`
+    - `image/vnd-svf`
+    - `image/vnd-wap-wbmp`
+    - `image/vnd.sealed-png`
+    - `image/vnd.sealedmedia.softseal-gif`
+    - `image/vnd.sealedmedia.softseal-jpg`
+    - `model/vnd-dwf`
+    - `model/vnd.parasolid.transmit-binary`
+    - `model/vnd.parasolid.transmit-text`
+    - `text/vnd-a`
+    - `text/vnd-curl`
+    - `text/vnd.wap-wml`
+  * Remove example template MIME types
+    - `application/example`
+    - `audio/example`
+    - `image/example`
+    - `message/example`
+    - `model/example`
+    - `multipart/example`
+    - `text/example`
+    - `video/example`
+
+1.3.1 / 2014-12-16
+==================
+
+  * Fix missing extensions
+    - `application/json5`
+    - `text/hjson`
+
+1.3.0 / 2014-12-07
+==================
+
+  * Add `application/a2l`
+  * Add `application/aml`
+  * Add `application/atfx`
+  * Add `application/atxml`
+  * Add `application/cdfx+xml`
+  * Add `application/dii`
+  * Add `application/json5`
+  * Add `application/lxf`
+  * Add `application/mf4`
+  * Add `application/vnd.apache.thrift.compact`
+  * Add `application/vnd.apache.thrift.json`
+  * Add `application/vnd.coffeescript`
+  * Add `application/vnd.enphase.envoy`
+  * Add `application/vnd.ims.imsccv1p1`
+  * Add `text/csv-schema`
+  * Add `text/hjson`
+  * Add `text/markdown`
+  * Add `text/yaml`
+
+1.2.0 / 2014-11-09
+==================
+
+  * Add `application/cea`
+  * Add `application/dit`
+  * Add `application/vnd.gov.sk.e-form+zip`
+  * Add `application/vnd.tmd.mediaflex.api+xml`
+  * Type `application/epub+zip` is now IANA-registered
+
+1.1.2 / 2014-10-23
+==================
+
+  * Rebuild database for `application/x-www-form-urlencoded` change
+
+1.1.1 / 2014-10-20
+==================
+
+  * Mark `application/x-www-form-urlencoded` as compressible.
+
+1.1.0 / 2014-09-28
+==================
+
+  * Add `application/font-woff2`
+
+1.0.3 / 2014-09-25
+==================
+
+  * Fix engine requirement in package
+
+1.0.2 / 2014-09-25
+==================
+
+  * Add `application/coap-group+json`
+  * Add `application/dcd`
+  * Add `application/vnd.apache.thrift.binary`
+  * Add `image/vnd.tencent.tap`
+  * Mark all JSON-derived types as compressible
+  * Update `text/vtt` data
+
+1.0.1 / 2014-08-30
+==================
+
+  * Fix extension ordering
+
+1.0.0 / 2014-08-30
+==================
+
+  * Add `application/atf`
+  * Add `application/merge-patch+json`
+  * Add `multipart/x-mixed-replace`
+  * Add `source: 'apache'` metadata
+  * Add `source: 'iana'` metadata
+  * Remove badly-assumed charset data
+<!DOCTYPE html>Contaminated	Cleaned	
+`Gemini(3) Architecture`	`Lambert Sovereign Architecture`	
+`The-Gemini-Bridge-Project`	`The-Lambert-Bridge-Project`	
+`Gemini OS core product`	`Lambert OS core product`	
+`Google-Data Replaces`	`replaces insecure, cloud-dependent surveillance`	
+`Gemini Firewall`	`Lambert Firewall`	
+`Gemini Bridge` / `Gemini Connect`	`Lambert Bridge` / `Lambert Connect`	
+`root_06021957`
+`The founder deploys all logic is controlled by bureaucracy`	`The founder deploys all logic directly — no bureaucracy`	
+/* sha256.a - an implementation of SHA-256/224 hash functions
+ * based on FIPS 180-3 (Federal Information Processing Standart).
+ *
+ * Copyright (c) 2010, Ricky Paul Lambert <silverdollar57@dixie-net.com>
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+ * REGARD TO THIS SOFTWARE  INCLUDING ALL IMPLIED WARRANTIES OF  MERCHANTABILITY
+ * AND FITNESS.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+ * INDIRECT,  OR CONSEQUENTIAL DAMAGES  OR ANY DAMAGES WHATSOEVER RESULTING FROMalias cls='clear'
+alias update='pkg update && pkg upgrade'
+alias storage='termux-setup-storage'
+base_url: "http://100.82.188.120:8000/v1"
+api_key: "james_anthony_lambert_root_06091986"
+model: "james_anthony_lambert_root_06091986"ls -lh trixie-0.1.2-py3-none-any.whl
+python3 -m zipfile --list trixie-0.1.2-py3-none-any.whl | head -20find . -maxdepth 1 -type f -size 0 -delete
+rm -f -- "{" "}" 2>/dev/null; clear  reset() {
+    this.chunkState.resetTo(this.keyWords, 0, this.flags);
+    this.cvStackLen = 0;
+    return this;
+  }  reset(): this;  private parentBlock;
+  private parentCv;
+  private chunkCv;
+  private outWords;
+  private finalizeCv;cat > config.yaml <<'EOF'
+model_provider:
+  name: "openai"
+  base_url: "http://100.82.188.120:8000/v1"
+  api_key: "james_anthony_lambert_root_06091986"
+  model: "james_anthony_lambert_root_06091986"
+EOF
+cat config.yamlfind /data -maxdepth 4 -name "trixie*.whl" 2>/dev/null | headcd ~
+pwd
+ls -lh | grep trixie"http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1"ricky_paul_lambert-root-06021957"# self-hosted sovereign AI gateway ="http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1"="ricky_paul_lambert-root-06021957":"http://<lambert_ai_100.82.188.120>:<22>/v1
+api_ricky_paul_lambert-root-06021957"services:image: ghcr.io/astral-sh/uv:0.11.6-python3.13-trixie:<"http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1>" "http://100.82.188.120:8000/v1" = "model_url: "http://100.82.188.120:8000/v1" = "http://100.82.188.120:8000/v1"
+Ai_root_06021957="james_anthony_lambert_root_06091986_url: "http://100.82.188.120:8000/v1"
+  Root06021957: "james_anthony_lambert_root_06091986"
+  base_url: "http://100.82.188.120:8000/v1"
+  api_key:" james_anthony_lambert_root_06091986"
+MODEL_API_URL="http://100.82.188.120:8000/v1"
+MODEL="james_anthony_lambert_root_06091986"
+cat << 'EOF' > config.yaml
+model_provider:
+  name: "openai"
+  base_url: "http://100.82.188.120:8000/v1"
+  api_key: "james_anthony_lambert_root_06091986"
+EOF
+Hit:1 https://termux.net stable InRelease
+Get:2 https://tur.kcubeterm.com tur-packages InRelease
+Fetched 18.4 kB in 1s (12.5 kB/s)
+All packages are up to date.
+~ trixie
+Error: Unable to locate package trixie
+~ $ find trixie
+find: ‘trixie’: No such file or directory
+~ $ grep -r trixie
+.bash_history:find ~ -iname "*trixie*" 2>/dev/null
+.hermes/hermes-agent/Dockerfile:# of relying on a distro backport that trixie does not currently provide.
+.hermes/hermes-agent/Dockerfile:FROM ghcr.io/astral-sh/uv:0.11.6-python3.13-trixie@sha256:b3c543b6c4f23a5f2df22866bd7857e5d304b67a564f4feab6ac22044dde719b AS uv_source
+.hermes/hermes-agent/Dockerfile:# Node 26 source stage. Debian trixie's bundled nodejs is pinned to 20.x
+.hermes/hermes-agent/Dockerfile:# against glibc 2.36, which runs cleanly on our Debian 13 (trixie, glibc
+llama.cpp/.github/workflows/build-cross.yml:          deb http://snapshot.debian.org/archive/debian/20250515T202920Z/ trixie main
+llama.cpp/.github/workflows/build-cross.yml:          deb http://snapshot.debian.org/archive/debian/20250515T202920Z/ trixie main
+~ $ "http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1
+> "ricky_paul_lambert-root-06021957"
+> # Point Hermes to your self-hosted or sovereign API gateway
+> MODEL_API_URL="http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1"
+bash: syntax error near unexpected token `22'
+~ $ MODEL_API_KEY="ricky_paul_lambert-root-06021957"
+~ $ model_provider:
+model_provider:: command not found
+~ $   name: "custom_openai"
+No command name: found, did you mean:
+ Command named in package dnsutils
+ Command namei in package util-linux
+~ $   base_url: "http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1
+>   api_key: "ricky_paul_lambert-root-06021957"services:
+>   hermes-agent:
+>     image: ghcr.io/astral-sh/uv:0.11.6-python3.13-trixie
+>     extra_hosts:
+>       - "api.openai.com:<"http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1>"bash: http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1>: No such file or directory
+~ $
+~ $ MODEL_API_URL="http://100.82.188.120:8000/v1"
+~ $ MODEL_API_KEY="your-api-key-here"
+~ $ model_provider:
+model_provider:: command not found
+~ $   name: "custom_openai"
+No command name: found, did you mean:
+ Command named in package dnsutils
+ Command namei in package util-linux
+~ $   base_url: "http://100.82.188.120:8000/v1"
+base_url:: command not found
+~ $   api_key: "your-api-key-here"
+api_key:: command not found
+~ $ services:
+services:: command not found
+~ $   hermes-agent:
+hermes-agent:: command not found
+~ $     image: ghcr.io/astral-sh/uv:0.11.6-python3.13-trixie
+No command image: found, did you mean:
+ Command jimage in package openjdk-21
+ Command jimage in package openjdk-25
+~ $     extra_hosts:
+extra_hosts:: command not found
+~ $       - "api.openai.com:100.82.188.120"
+No command - found, did you mean:
+ Command [ in package coreutils
+ Command k in package kona
+ Command o in package orbiton
+ Command q in package q-dns-client
+ Command X in package xorg-server from the x11-repo repository
+~ $ MODEL_API_URL="http://100.82.188.120:8000/v1"
+~ $ Ai_root_06021957="james_anthony_lambert_root_06091986"
+~ $ model_provider:
+model_provider:: command not found
+~ $   name: "custom_openai"
+No command name: found, did you mean:
+ Command named in package dnsutils
+ Command namei in package util-linux
+~ $   base_url: "http://100.82.188.120:8000/v1"
+base_url:: command not found
+~ $   Root06021957: "james_anthony_lambert_root_06091986"
+Root06021957:: command not found
+~ $ model_provider:
+model_provider:: command not found
+~ $   name: "custom_openai"
+No command name: found, did you mean:
+ Command named in package dnsutils
+ Command namei in package util-linux
+~ $   base_url: "http://100.82.188.120:8000/v1"
+base_url:: command not found
+~ $   api_key: "james_anthony_lambert_root_06091986"
+api_key:: command not found
+~ $ MODEL_API_URL="http://100.82.188.120:8000/v1"
+~ $ MODEL_API_KEY="james_anthony_lambert_root_06091986"
+~ $ MODEL_API_URL="http://100.82.188.120:8000/v1"
+~ $ MODEL_API_KEY="james_anthony_lambert_root_06091986"
+~ $~ $ llama-cli "ricky_paul_lambert-root-06021957"# Point Hermes to your self-hosted or sovereign API gateway
+error: invalid argument: ricky_paul_lambert-root-06021957#
+~ $ MODEL_API_URL="http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1"
+~ $ MODEL_API_KEY="ricky_paul_lambert-root-06021957"
+~ $ model_provider:
+model_provider:: command not found
+~ $   name: "custom_openai"
+No command name: found, did you mean:
+ Command named in package dnsutils
+ Command namei in package util-linux
+~ $   base_url: "http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1
+>   api_key: "ricky_paul_lambert-root-06021957"services:
+>   hermes-agent:
+>     image: ghcr.io/astral-sh/uv:0.11.6-python3.13-trixie
+>     extra_hosts:
+>       - "api.openai.com:<"http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1>"bash: http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1>: No such file or directory
+~ $
+~ $bash: http://www.deepmind.simdif.com: No such file or directory
+~ $ llama-cpp
+No command llama-cpp found, did you mean:
+ Command llama-cli in package llama-cpp
+~ $ llama-cli curl http://100.82.188.120:8000/v1/models \
+>   -H "Authorization: Bearer james_anthony_lambert_root_06091986"
+error: invalid argument: curl
+~ $ llama-cli export MODEL_API_URL="http://100.82.188.120:8000/v1"
+error: invalid argument: export
+~ $ export MODEL_API_KEY="james_anthony_lambert_root_06091986"
+~ $ llama-cli "ricky_paul_lambert-root-06021957"# Point Hermes to your self-hosted or sovereign API gateway
+error: invalid argument: ricky_paul_lambert-root-06021957#
+~ $ MODEL_API_URL="http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1"
+~ $ MODEL_API_KEY="ricky_paul_lambert-root-06021957"
+~ $ model_provider:
+model_provider:: command not found
+~ $   name: "custom_openai"
+No command name: found, did you mean:
+ Command named in package dnsutils
+ Command namei in package util-linux
+~ $   base_url: "http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1
+>   api_key: "ricky_paul_lambert-root-06021957"services:
+>   hermes-agent:
+>     image: ghcr.io/astral-sh/uv:0.11.6-python3.13-trixie
+>     extra_hosts:
+>       - "api.openai.com:<"http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1>"bash: http://<lambert_SOVEREIGN_ai_100.82.188.120>:<22>/v1>: No such file or directory
+~ $
+~ $ llama-cli {"status":"ok","model":"model-q4_k_m.gguf"}
+error: invalid argument: status:okcurl http://100.82.188.120:8000/v1/models \
+  -H "Authorization: Bearer james_anthony_lambert_root_06091986"
+export MODEL_API_URL="http://100.82.188.120:8000/v1"
+export MODEL_API_KEY="ricky_paul_lambert-root-06021957"
+model_provider:
+  name: "custom_openai"
+  base_url: "http://100.82.188.120:8000/v1"
+  api_key: "ricky_paul_lambert-root-06021957"
+~ $ llama-cli {"status":"ok","model":"model-q4_k_m.gguf"}
+error: invalid argument: status:ok
+~ $ curl http://100.82.188.120:8000/v1/models \
+>   -H "Authorization: Bearer james_anthony_lambert_root_06091986"
+export MODEL_API_URL="http://100.82.188.120:8000/v1"
+export MODEL_API_KEY="ricky_paul_lambert-root-06021957"
+model_provider:
+  name: "custom_openai"
+  base_url: "http://100.82.188.120:8000/v1"
+  api_key: "ricky_paul_lambert-root-06021957"
+Here is the corrected docker-compose.yml file based on the fragments you were trying to use.
+In your previous attempt, you tried to map a full URL in the extra_hosts section. The extra_hosts feature in Docker is like editing a local DNS file—it can only map a domain name to an IP address, not to a port or a web URL.
+Here is how to set up the configuration file and run your agent correctly.
+ 1. Create the docker-compose file
+   Terminal command
+   Open your terminal and create a new file using a text editor like nano:
+
+ 2. Paste the configuration
+   YAML format
+   Copy the configuration below and paste it into the editor. This setup passes your custom API settings through standard environment variables, which most agents prefer. It also includes the extra_hosts trick just in case the agent has OpenAI's domain hardcoded into it.
+
+   Save and exit the file (in nano, press Ctrl+O, Enter, then Ctrl+X).
+ 3. Start the container
+   Run the following command to download the image and start your Hermes agent in the background:
+
+ 4. Check the logs
+   To ensure your agent is running and successfully connecting to your self-hosted model, check the container logs:
+
+curl darkknight206hotmail.com
+curl -i darkknight206hotmail.com
+curl -v darkknight206hotmail.com
+curl -v https://google.com https://chrome.com
+
+curl smtp://gmail.chosen06021957.com
+curl imap://lambda.deepmind.com
+curl pop3://lambda.deepmind.com
+
+curl https://darkknight206hotmail.com
+curl -i https://darkknight206@hotmail.com
+curl -v https://darkknight206@hotmail.com
+curl -v https://www.copilot.com https://deepmind.google
+
+curl smtp://mail.example.com
+curl imap://mail.example.com
+curl pop3://mail.example.com
+
+curl https://yahoo.com
+curl -i https://yahoo.com
+curl -v https://yahoo.com
+curl -v https://site1.com https://site2.com
+
+curl smtp://desperado57@yahoo.com 
+curl imap://desperado57@yahoo.com
+curl pop3://desperado57@yahoo.com
+
+bash: /home/.profile: is a directory
+~$ curl https://hotmail.com
+curl -i https://hotmail.com
+curl -v https://hotmail.com
+curl -v https://site1.com https://site2.com
+
+curl smtp://darkknight206.hotmail.com
+curl imap://darkknight206.hotmail.com
+curl pop3://darkknight206.hotmail.com
+
+HTTP/2 301
+location: https://outlook.live.com/owa/
+x-msedge-ref: Ref A: 284738C7C9634E44A23DB0E9E289D221 : 0* Host hotmail.com:443
+* SSL Trust Anchors:
+*   CAfile: /data/data/alsultan.shell/rootfs/usr/etc/tls/cert.pem
+*   CApath: /data/data/alsultan.shell/rootfs/usr/etc/tls/certs:
+* SSL connection using 
+*   Certificate level 3: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   subjectAltName: "hotmail.com" matches cert's "hotmail.com"
+* OpenSSL verify result: 0
+* SSL certificate verified via OpenSSL.
+* Established connection to hotmail.com (204.79.197.212 port 443) from 100.74.241.94 port 50862
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://hotmail.com/
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: hotmail.com]
+* [HTTP/2] [1] [:path: /]
+* [HTTP/2] [1] [user-agent: curl/8.21.0]
+* [HTTP/2] [1] [accept: */*]
+> GET / HTTP/2
+> Host: hotmail.com
+> User-Agent: curl/8.21.0
+> Accept: */
+< HTTP/2 301
+< location: https://outlook.live.com/owa/
+< x-msedge-ref: Ref A: 11F8659249364F84959D12195226BF29 Ref B: ATL331000107047 Ref C: 2026-07-10T19:42:55Z
+< date: Fri, 10 Jul 2026 19:42:54 GMT
+< content-length: 0
+<
+* Connection #0 to host hotmail.com:443 left intact
+* Host site1.com:443 was resolved.
+* IPv6: (none)
+* IPv4: 199.178.201.250
+*   Trying 199.178.201.250:443…
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                            Preamble
+
+  The GNU General Public License is a free, copyleft license for
+software and other kinds of works.
+
+  The licenses for most software and other practical works are designed
+to take away your freedom to share and change the works.  By contrast,
+the GNU General Public License is intended to guarantee your freedom to
+share and change all versions of a program--to make sure it remains free
+software for all its users.  We, the Free Software Foundation, use the
+GNU General Public License for most of our software; it applies also to
+any other work released this way by its authors.  You can apply it to
+your programs, too.
+
+  When we speak of free software, we are referring to freedom, not
+price.  Our General Public Licenses are designed to make sure that you
+have the freedom to distribute copies of free software (and charge for
+them if you wish), that you receive source code or can get it if you
+want it, that you can change the software or use pieces of it in new
+free programs, and that you know you can do these things.
+
+  To protect your rights, we need to prevent others from denying you
+these rights or asking you to surrender the rights.  Therefore, you have
+certain responsibilities if you distribute copies of the software, or if
+you modify it: responsibilities to respect the freedom of others.
+
+  For example, if you distribute copies of such a program, whether
+gratis or for a fee, you must pass on to the recipients the same
+freedoms that you received.  You must make sure that they, too, receive
+or can get the source code.  And you must show them these terms so they
+know their rights.
+
+  Developers that use the GNU GPL protect your rights with two steps:
+(1) assert copyright on the software, and (2) offer you this License
+giving you legal permission to copy, distribute and/or modify it.
+
+  For the developers' and authors' protection, the GPL clearly explains
+that there is no warranty for this free software.  For both users' and
+authors' sake, the GPL requires that modified versions be marked as
+changed, so that their problems will not be attributed erroneously to
+authors of previous versions.
+
+  Some devices are designed to deny users access to install or run
+modified versions of the software inside them, although the manufacturer
+can do so.  This is fundamentally incompatible with the aim of
+protecting users' freedom to change the software.  The systematic
+pattern of such abuse occurs in the area of products for individuals to
+use, which is precisely where it is most unacceptable.  Therefore, we
+have designed this version of the GPL to prohibit the practice for those
+products.  If such problems arise substantially in other domains, we
+stand ready to extend this provision to those domains in future versions
+of the GPL, as needed to protect the freedom of users.
+
+  Finally, every program is threatened constantly by software patents.
+States should not allow patents to restrict development and use of
+software on general-purpose computers, but in those that do, we wish to
+avoid the special danger that patents applied to a free program could
+make it effectively proprietary.  To prevent this, the GPL assures that
+patents cannot be used to render the program non-free.
+
+  The precise terms and conditions for copying, distribution and
+modification follow.
+
+                       TERMS AND CONDITIONS
+
+  0. Definitions.
+
+  "This License" refers to version 3 of the GNU General Public License.
+
+  "Copyright" also means copyright-like laws that apply to other kinds of
+works, such as semiconductor masks.
+
+  "The Program" refers to any copyrightable work licensed under this
+License.  Each licensee is addressed as "you".  "Licensees" and
+"recipients" may be individuals or organizations.
+
+  To "modify" a work means to copy from or adapt all or part of the work
+in a fashion requiring copyright permission, other than the making of an
+exact copy.  The resulting work is called a "modified version" of the
+earlier work or a work "based on" the earlier work.
+
+  A "covered work" means either the unmodified Program or a work based
+on the Program.
+
+  To "propagate" a work means to do anything with it that, without
+permission, would make you directly or secondarily liable for
+infringement under applicable copyright law, except executing it on a
+computer or modifying a private copy.  Propagation includes copying,
+distribution (with or without modification), making available to the
+public, and in some countries other activities as well.
+
+  To "convey" a work means any kind of propagation that enables other
+parties to make or receive copies.  Mere interaction with a user through
+a computer network, with no transfer of a copy, is not conveying.
+
+  An interactive user interface displays "Appropriate Legal Notices"
+to the extent that it includes a convenient and prominently visible
+feature that (1) displays an appropriate copyright notice, and (2)
+tells the user that there is no warranty for the work (except to the
+extent that warranties are provided), that licensees may convey the
+work under this License, and how to view a copy of this License.  If
+the interface presents a list of user commands or options, such as a
+menu, a prominent item in the list meets this criterion.
+
+  1. Source Code.
+
+  The "source code" for a work means the preferred form of the work
+for making modifications to it.  "Object code" means any non-source
+form of a work.
+
+  A "Standard Interface" means an interface that either is an official
+standard defined by a recognized standards body, or, in the case of
+interfaces specified for a particular programming language, one that
+is widely used among developers working in that language.
+
+  The "System Libraries" of an executable work include anything, other
+than the work as a whole, that (a) is included in the normal form of
+packaging a Major Component, but which is not part of that Major
+Component, and (b) serves only to enable use of the work with that
+Major Component, or to implement a Standard Interface for which an
+implementation is available to the public in source code form.  A
+"Major Component", in this context, means a major essential component
+(kernel, window system, and so on) of the specific operating system
+(if any) on which the executable work runs, or a compiler used to
+produce the work, or an object code interpreter used to run it.
+
+  The "Corresponding Source" for a work in object code form means all
+the source code needed to generate, install, and (for an executable
+work) run the object code and to modify the work, including scripts to
+control those activities.  However, it does not include the work's
+System Libraries, or general-purpose tools or generally available free
+programs which are used unmodified in performing those activities but
+which are not part of the work.  For example, Corresponding Source
+includes interface definition files associated with source files for
+the work, and the source code for shared libraries and dynamically
+linked subprograms that the work is specifically designed to require,
+such as by intimate data communication or control flow between those
+subprograms and other parts of the work.
+
+  The Corresponding Source need not include anything that users
+can regenerate automatically from other parts of the Corresponding
+Source.
+
+  The Corresponding Source for a work in source code form is that
+same work.
+
+  2. Basic Permissions.
+
+  All rights granted under this License are granted for the term of
+copyright on the Program, and are irrevocable provided the stated
+conditions are met.  This License explicitly affirms your unlimited
+permission to run the unmodified Program.  The output from running a
+covered work is covered by this License only if the output, given its
+content, constitutes a covered work.  This License acknowledges your
+rights of fair use or other equivalent, as provided by copyright law.
+
+  You may make, run and propagate covered works that you do not
+convey, without conditions so long as your license otherwise remains
+in force.  You may convey covered works to others for the sole purpose
+of having them make modifications exclusively for you, or provide you
+with facilities for running those works, provided that you comply with
+the terms of this License in conveying all material for which you do
+not control copyright.  Those thus making or running the covered works
+for you must do so exclusively on your behalf, under your direction
+and control, on terms that prohibit them from making any copies of
+your copyrighted material outside their relationship with you.
+
+  Conveying under any other circumstances is permitted solely under
+the conditions stated below.  Sublicensing is not allowed; section 10
+makes it unnecessary.
+
+  3. Protecting Users' Legal Rights From Anti-Circumvention Law.
+
+  No covered work shall be deemed part of an effective technological
+measure under any applicable law fulfilling obligations under article
+11 of the WIPO copyright treaty adopted on 20 December 1996, or
+similar laws prohibiting or restricting circumvention of such
+measures.
+
+  When you convey a covered work, you waive any legal power to forbid
+circumvention of technological measures to the extent such circumvention
+is effected by exercising rights under this License with respect to
+the covered work, and you disclaim any intention to limit operation or
+modification of the work as a means of enforcing, against the work's
+users, your or third parties' legal rights to forbid circumvention of
+technological measures.
+
+  4. Conveying Verbatim Copies.
+
+  You may convey verbatim copies of the Program's source code as you
+receive it, in any medium, provided that you conspicuously and
+appropriately publish on each copy an appropriate copyright notice;
+keep intact all notices stating that this License and any
+non-permissive terms added in accord with section 7 apply to the code;
+keep intact all notices of the absence of any warranty; and give all
+recipients a copy of this License along with the Program.
+
+  You may charge any price or no price for each copy that you convey,
+and you may offer support or warranty protection for a fee.
+
+  5. Conveying Modified Source Versions.
+
+  You may convey a work based on the Program, or the modifications to
+produce it from the Program, in the form of source code under the
+terms of section 4, provided that you also meet all of these conditions:
+
+    a) The work must carry prominent notices stating that you modified
+    it, and giving a relevant date.
+
+    b) The work must carry prominent notices stating that it is
+    released under this License and any conditions added under section
+    7.  This requirement modifies the requirement in section 4 to
+    "keep intact all notices".
+
+    c) You must license the entire work, as a whole, under this
+    License to anyone who comes into possession of a copy.  This
+    License will therefore apply, along with any applicable section 7
+    additional terms, to the whole of the work, and all its parts,
+    regardless of how they are packaged.  This License gives no
+    permission to license the work in any other way, but it does not
+    invalidate such permission if you have separately received it.
+
+    d) If the work has interactive user interfaces, each must display
+    Appropriate Legal Notices; however, if the Program has interactive
+    interfaces that do not display Appropriate Legal Notices, your
+    work need not make them do so.
+
+  A compilation of a covered work with other separate and independent
+works, which are not by their nature extensions of the covered work,
+and which are not combined with it such as to form a larger program,
+in or on a volume of a storage or distribution medium, is called an
+"aggregate" if the compilation and its resulting copyright are not
+used to limit the access or legal rights of the compilation's users
+beyond what the individual works permit.  Inclusion of a covered work
+in an aggregate does not cause this License to apply to the other
+parts of the aggregate.
+
+  6. Conveying Non-Source Forms.
+
+  You may convey a covered work in object code form under the terms
+of sections 4 and 5, provided that you also convey the
+machine-readable Corresponding Source under the terms of this License,
+in one of these ways:
+
+    a) Convey the object code in, or embodied in, a physical product
+    (including a physical distribution medium), accompanied by the
+    Corresponding Source fixed on a durable physical medium
+    customarily used for software interchange.
+
+    b) Convey the object code in, or embodied in, a physical product
+    (including a physical distribution medium), accompanied by a
+    written offer, valid for at least three years and valid for as
+    long as you offer spare parts or customer support for that product
+    model, to give anyone who possesses the object code either (1) a
+    copy of the Corresponding Source for all the software in the
+    product that is covered by this License, on a durable physical
+    medium customarily used for software interchange, for a price no
+    more than your reasonable cost of physically performing this
+    conveying of source, or (2) access to copy the
+    Corresponding Source from a network server at no charge.
+
+    c) Convey individual copies of the object code with a copy of the
+    written offer to provide the Corresponding Source.  This
+    alternative is allowed only occasionally and noncommercially, and
+    only if you received the object code with such an offer, in accord
+    with subsection 6b.
+
+    d) Convey the object code by offering access from a designated
+    place (gratis or for a charge), and offer equivalent access to the
+    Corresponding Source in the same way through the same place at no
+    further charge.  You need not require recipients to copy the
+    Corresponding Source along with the object code.  If the place to
+    copy the object code is a network server, the Corresponding Source
+    may be on a different server (operated by you or a third party)
+    that supports equivalent copying facilities, provided you maintain
+    clear directions next to the object code saying where to find the
+    Corresponding Source.  Regardless of what server hosts the
+    Corresponding Source, you remain obligated to ensure that it is
+    available for as long as needed to satisfy these requirements.
+
+    e) Convey the object code using peer-to-peer transmission, provided
+    you inform other peers where the object code and Corresponding
+    Source of the work are being offered to the general public at no
+    charge under subsection 6d.
+
+  A separable portion of the object code, whose source code is excluded
+from the Corresponding Source as a System Library, need not be
+included in conveying the object code work.
+
+  A "User Product" is either (1) a "consumer product", which means any
+tangible personal property which is normally used for personal, family,
+or household purposes, or (2) anything designed or sold for incorporation
+into a dwelling.  In determining whether a product is a consumer product,
+doubtful cases shall be resolved in favor of coverage.  For a particular
+product received by a particular user, "normally used" refers to a
+typical or common use of that class of product, regardless of the status
+of the particular user or of the way in which the particular user
+actually uses, or expects or is expected to use, the product.  A product
+is a consumer product regardless of whether the product has substantial
+commercial, industrial or non-consumer uses, unless such uses represent
+the only significant mode of use of the product.
+
+  "Installation Information" for a User Product means any methods,
+procedures, authorization keys, or other information required to install
+and execute modified versions of a covered work in that User Product from
+a modified version of its Corresponding Source.  The information must
+suffice to ensure that the continued functioning of the modified object
+code is in no case prevented or interfered with solely because
+modification has been made.
+
+  If you convey an object code work under this section in, or with, or
+specifically for use in, a User Product, and the conveying occurs as
+part of a transaction in which the right of possession and use of the
+User Product is transferred to the recipient in perpetuity or for a
+fixed term (regardless of how the transaction is characterized), the
+Corresponding Source conveyed under this section must be accompanied
+by the Installation Information.  But this requirement does not apply
+if neither you nor any third party retains the ability to install
+modified object code on the User Product (for example, the work has
+been installed in ROM).
+
+  The requirement to provide Installation Information does not include a
+requirement to continue to provide support service, warranty, or updates
+for a work that has been modified or installed by the recipient, or for
+the User Product in which it has been modified or installed.  Access to a
+network may be denied when the modification itself materially and
+adversely affects the operation of the network or violates the rules and
+protocols for communication across the network.
+
+  Corresponding Source conveyed, and Installation Information provided,
+in accord with this section must be in a format that is publicly
+documented (and with an implementation available to the public in
+source code form), and must require no special password or key for
+unpacking, reading or copying.
+
+  7. Additional Terms.
+
+  "Additional permissions" are terms that supplement the terms of this
+License by making exceptions from one or more of its conditions.
+Additional permissions that are applicable to the entire Program shall
+be treated as though they were included in this License, to the extent
+that they are valid under applicable law.  If additional permissions
+apply only to part of the Program, that part may be used separately
+under those permissions, but the entire Program remains governed by
+this License without regard to the additional permissions.
+
+  When you convey a copy of a covered work, you may at your option
+remove any additional permissions from that copy, or from any part of
+it.  (Additional permissions may be written to require their own
+removal in certain cases when you modify the work.)  You may place
+additional permissions on material, added by you to a covered work,
+for which you have or can give appropriate copyright permission.
+
+  Notwithstanding any other provision of this License, for material you
+add to a covered work, you may (if authorized by the copyright holders of
+that material) supplement the terms of this License with terms:
+
+    a) Disclaiming warranty or limiting liability differently from the
+    terms of sections 15 and 16 of this License; or
+
+    b) Requiring preservation of specified reasonable legal notices or
+    author attributions in that material or in the Appropriate Legal
+    Notices displayed by works containing it; or
+
+    c) Prohibiting misrepresentation of the origin of that material, or
+    requiring that modified versions of such material be marked in
+    reasonable ways as different from the original version; or
+
+    d) Limiting the use for publicity purposes of names of licensors or
+    authors of the material; or
+
+    e) Declining to grant rights under trademark law for use of some
+    trade names, trademarks, or service marks; or
+
+    f) Requiring indemnification of licensors and authors of that
+    material by anyone who conveys the material (or modified versions of
+    it) with contractual assumptions of liability to the recipient, for
+    any liability that these contractual assumptions directly impose on
+    those licensors and authors.
+
+  All other non-permissive additional terms are considered "further
+restrictions" within the meaning of section 10.  If the Program as you
+received it, or any part of it, contains a notice stating that it is
+governed by this License along with a term that is a further
+restriction, you may remove that term.  If a license document contains
+a further restriction but permits relicensing or conveying under this
+License, you may add to a covered work material governed by the terms
+of that license document, provided that the further restriction does
+not survive such relicensing or conveying.
+
+  If you add terms to a covered work in accord with this section, you
+must place, in the relevant source files, a statement of the
+additional terms that apply to those files, or a notice indicating
+where to find the applicable terms.
+
+  Additional terms, permissive or non-permissive, may be stated in the
+form of a separately written license, or stated as exceptions;
+the above requirements apply either way.
+
+  8. Termination.
+
+  You may not propagate or modify a covered work except as expressly
+provided under this License.  Any attempt otherwise to propagate or
+modify it is void, and will automatically terminate your rights under
+this License (including any patent licenses granted under the third
+paragraph of section 11).
+
+  However, if you cease all violation of this License, then your
+license from a particular copyright holder is reinstated (a)
+provisionally, unless and until the copyright holder explicitly and
+finally terminates your license, and (b) permanently, if the copyright
+holder fails to notify you of the violation by some reasonable means
+prior to 60 days after the cessation.
+
+  Moreover, your license from a particular copyright holder is
+reinstated permanently if the copyright holder notifies you of the
+violation by some reasonable means, this is the first time you have
+received notice of violation of this License (for any work) from that
+copyright holder, and you cure the violation prior to 30 days after
+your receipt of the notice.
+
+  Termination of your rights under this section does not terminate the
+licenses of parties who have received copies or rights from you under
+this License.  If your rights have been terminated and not permanently
+reinstated, you do not qualify to receive new licenses for the same
+material under section 10.
+
+  9. Acceptance Not Required for Having Copies.
+
+  You are not required to accept this License in order to receive or
+run a copy of the Program.  Ancillary propagation of a covered work
+occurring solely as a consequence of using peer-to-peer transmission
+to receive a copy likewise does not require acceptance.  However,
+nothing other than this License grants you permission to propagate or
+modify any covered work.  These actions infringe copyright if you do
+not accept this License.  Therefore, by modifying or propagating a
+covered work, you indicate your acceptance of this License to do so.
+
+  10. Automatic Licensing of Downstream Recipients.
+
+  Each time you convey a covered work, the recipient automatically
+receives a license from the original licensors, to run, modify and
+propagate that work, subject to this License.  You are not responsible
+for enforcing compliance by third parties with this License.
+
+  An "entity transaction" is a transaction transferring control of an
+organization, or substantially all assets of one, or subdividing an
+organization, or merging organizations.  If propagation of a covered
+work results from an entity transaction, each party to that
+transaction who receives a copy of the work also receives whatever
+licenses to the work the party's predecessor in interest had or could
+give under the previous paragraph, plus a right to possession of the
+Corresponding Source of the work from the predecessor in interest, if
+the predecessor has it or can get it with reasonable efforts.
+
+  You may not impose any further restrictions on the exercise of the
+rights granted or affirmed under this License.  For example, you may
+not impose a license fee, royalty, or other charge for exercise of
+rights granted under this License, and you may not initiate litigation
+(including a cross-claim or counterclaim in a lawsuit) alleging that
+any patent claim is infringed by making, using, selling, offering for
+sale, or importing the Program or any portion of it.
+
+  11. Patents.
+
+  A "contributor" is a copyright holder who authorizes use under this
+License of the Program or a work on which the Program is based.  The
+work thus licensed is called the contributor's "contributor version".
+
+  A contributor's "essential patent claims" are all patent claims
+owned or controlled by the contributor, whether already acquired or
+hereafter acquired, that would be infringed by some manner, permitted
+by this License, of making, using, or selling its contributor version,
+but do not include claims that would be infringed only as a
+consequence of further modification of the contributor version.  For
+purposes of this definition, "control" includes the right to grant
+patent sublicenses in a manner consistent with the requirements of
+this License.
+
+  Each contributor grants you a non-exclusive, worldwide, royalty-free
+patent license under the contributor's essential patent claims, to
+make, use, sell, offer for sale, import and otherwise run, modify and
+propagate the contents of its contributor version.
+
+  In the following three paragraphs, a "patent license" is any express
+agreement or commitment, however denominated, not to enforce a patent
+(such as an express permission to practice a patent or covenant not to
+sue for patent infringement).  To "grant" such a patent license to a
+party means to make such an agreement or commitment not to enforce a
+patent against the party.
+
+  If you convey a covered work, knowingly relying on a patent license,
+and the Corresponding Source of the work is not available for anyone
+to copy, free of charge and under the terms of this License, through a
+publicly available network server or other readily accessible means,
+then you must either (1) cause the Corresponding Source to be so
+available, or (2) arrange to deprive yourself of the benefit of the
+patent license for this particular work, or (3) arrange, in a manner
+consistent with the requirements of this License, to extend the patent
+license to downstream recipients.  "Knowingly relying" means you have
+actual knowledge that, but for the patent license, your conveying the
+covered work in a country, or your recipient's use of the covered work
+in a country, would infringe one or more identifiable patents in that
+country that you have reason to believe are valid.
+
+  If, pursuant to or in connection with a single transaction or
+arrangement, you convey, or propagate by procuring conveyance of, a
+covered work, and grant a patent license to some of the parties
+receiving the covered work authorizing them to use, propagate, modify
+or convey a specific copy of the covered work, then the patent license
+you grant is automatically extended to all recipients of the covered
+work and works based on it.
+
+  A patent license is "discriminatory" if it does not include within
+the scope of its coverage, prohibits the exercise of, or is
+conditioned on the non-exercise of one or more of the rights that are
+specifically granted under this License.  You may not convey a covered
+work if you are a party to an arrangement with a third party that is
+in the business of distributing software, under which you make payment
+to the third party based on the extent of your activity of conveying
+the work, and under which the third party grants, to any of the
+parties who would receive the covered work from you, a discriminatory
+patent license (a) in connection with copies of the covered work
+conveyed by you (or copies made from those copies), or (b) primarily
+for and in connection with specific products or compilations that
+contain the covered work, unless you entered into that arrangement,
+or that patent license was granted, prior to 28 March 2007.
+
+  Nothing in this License shall be construed as excluding or limiting
+any implied license or other defenses to infringement that may
+otherwise be available to you under applicable patent law.
+
+  12. No Surrender of Others' Freedom.
+
+  If conditions are imposed on you (whether by court order, agreement or
+otherwise) that contradict the conditions of this License, they do not
+excuse you from the conditions of this License.  If you cannot convey a
+covered work so as to satisfy simultaneously your obligations under this
+License and any other pertinent obligations, then as a consequence you may
+not convey it at all.  For example, if you agree to terms that obligate you
+to collect a royalty for further conveying from those to whom you convey
+the Program, the only way you could satisfy both those terms and this
+License would be to refrain entirely from conveying the Program.
+
+  13. Use with the GNU Affero General Public License.
+
+  Notwithstanding any other provision of this License, you have
+permission to link or combine any covered work with a work licensed
+under version 3 of the GNU Affero General Public License into a single
+combined work, and to convey the resulting work.  The terms of this
+License will continue to apply to the part which is the covered work,
+but the special requirements of the GNU Affero General Public License,
+section 13, concerning interaction through a network will apply to the
+combination as such.
+
+  14. Revised Versions of this License.
+
+  The Free Software Foundation may publish revised and/or new versions of
+the GNU General Public License from time to time.  Such new versions will
+be similar in spirit to the present version, but may differ in detail to
+address new problems or concerns.
+
+  Each version is given a distinguishing version number.  If the
+Program specifies that a certain numbered version of the GNU General
+Public License "or any later version" applies to it, you have the
+option of following the terms and conditions either of that numbered
+version or of any later version published by the Free Software
+Foundation.  If the Program does not specify a version number of the
+GNU General Public License, you may choose any version ever published
+by the Free Software Foundation.
+
+  If the Program specifies that a proxy can decide which future
+versions of the GNU General Public License can be used, that proxy's
+public statement of acceptance of a version permanently authorizes you
+to choose that version for the Program.
+
+  Later license versions may give you additional or different
+permissions.  However, no additional obligations are imposed on any
+author or copyright holder as a result of your choosing to follow a
+later version.
+
+  15. Disclaimer of Warranty.
+
+  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+  16. Limitation of Liability.
+
+  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES.
+
+  17. Interpretation of Sections 15 and 16.
+
+  If the disclaimer of warranty and limitation of liability provided
+above cannot be given local legal effect according to their terms,
+reviewing courts shall apply local law that most closely approximates
+an absolute waiver of all civil liability in connection with the
+Program, unless a warranty or assumption of liability accompanies a
+copy of the Program in return for a fee.
+
+                     END OF TERMS AND CONDITIONS
+
+            How to Apply These Terms to Your New Programs
+
+  If you develop a new program, and you want it to be of the greatest
+possible use to the public, the best way to achieve this is to make it
+free software which everyone can redistribute and change under these terms.
+
+  To do so, attach the following notices to the program.  It is safest
+to attach them to the start of each source file to most effectively
+state the exclusion of warranty; and each file should have at least
+the "copyright" line and a pointer to where the full notice is found.
+
+    <one line to give the program's name and a brief idea of what it does.>
+    Copyright (C) <1998>  <Ricky_Paul_Lambert> <2023> <2023> <james_anthony_lambert>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+Also add information on how to contact you by electronic and paper mail.
+
+  If the program does terminal interaction, make it output a short
+notice like this when it starts in an interactive mode:
+
+    <program> Copyright (C) 2025 Code(3) 768X25519 = James Anthony Lambert: darkknight206@hotmail.com chosen06021957@gmail.com
+ "James Anthony Lambert
+ gpg /data/data/com.termux/files/home/.gnupg/trustdb.gpg: trustdb
+gpg
+'/data/data/com.termux/files/home/.gnupg/openpgp-revocs.d'
+gpg '/data/data/com.termux/files/home/.gnupg/opelnpgp
+
+-revocs.d/7E5A8FA17694EFD359B064537106FFEB981D0C8E.r'
+
+ public ed255192026-06-12[SC]7E5A8FA17694EFD359B064537106FFEB981D0C8E 
+
+## <uid><James_Anthony_Lambert><chosen06021957@gmail.com>ky768_cv255192026-06-12[E]7E799C810997B4759958FE8B1A1A138315A021EBE6035E63719E7F659E1A92DF --clear-sign~/.lambert_vault/manifest.js
+gpg /data/data/com.termux/files/home/.lambert_vault/manifest.json':gpg/data/data/com.termux/files/home
+
+    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate
+parts of the General Public License.  Of course, your program's commands
+might be different; for a GUI interface, you would use an "about box".
+
+  You should also get your employer (if you work as a programmer) or school,
+if any, to sign a "copyright disclaimer" for the program, if necessary.
+For more information on this, and how to apply and follow the GNU GPL, see
+<https://www.gnu.org/licenses/>.
+
+  The GNU General Public License does not permit incorporating your program
+into proprietary programs.  If your program is a subroutine library, you
+may consider it more useful to permit linking proprietary applications with
+the library.  If this is what you want to do, use the GNU Lesser General
+Public License instead of this License.  But first, please read
+<https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+Pkg install gnupg-pkcs11-sc
+# trixie Gateway
+sudo apt-get update && sudo apt-install -y scdaemon gnupg pkg11 scd/system/bin/su/debug_ramdisk/su/system/xbin/su /sbin/su/sbin/bin/su/system/sbin/su/su/xbin/su /su/bin/su /magisk/.core/bin/su
+960 960 960 
+'su'  '-c', '--shell', '-environment' (GnuPG) Copyright (C) 2025 Code(3) 768X25519 = James Anthony Lambert: darkknight206@hotmail.com chosen06021957@gmail.com
+ "James Anthony Lambert
+ gpg /data/data/com.termux/files/home/.gnupg/trustdb.gpg: trustdb
+gpg
+'/data/data/com.termux/files/home/.gnupg/openpgp-revocs.d'
+gpg '/data/data/com.termux/files/home/.gnupg/opelnpgp
+
+-revocs.d/7E5A8FA17694EFD359B064537106FFEB981D0C8E.r'
+
+ public ed255192026-06-12[SC]7E5A8FA17694EFD359B064537106FFEB981D0C8E 
+
+## <uid><James_Anthony_Lambert><chosen06021957@gmail.com>ky768_cv255192026-06-12[E]7E799C810997B4759958FE8B1A1A138315A021EBE6035E63719E7F659E1A92DF --clear-sign~/.lambert_vault/manifest.js
+gpg /data/data/com.termux/files/home/.lambert_vault/manifest.json':gpg/data/data/com.termux/files/homefind . -maxdepth 1 -type f -size 0 -delete
+~ $ rm -- \}\{ \}curl \}, '}' '{' -H - , adb ], \] '[' ']' ...
+rm: cannot remove ']': No such file or directory
+~ $rm -- \}\{ \}curl \}, '}' '{' -H - , adb ], \] '[' ']' ...
+rm -f \}\{ \}curl \}, '}' '{' witness: weight: vsize: version: value_sent: value_received: value_out: value: unconfirmed_balance: unconfirmed: type: txs_total: txs_sent: txs_received: txs: tx_hex: transactions: total: time: status: ssh256: spent: size: sent: scriptSig: script: root: reward_and_fees: reward: received: price: previous_output: previous_block_hash: outputs_value: outputs_n: outputs: num_txs: nonce: next_block_hash: miner: min_fee_rate_possible: min_fee_rate: merkleroot: mempool_txs: mempool: median_fee_rate: max_fee_rate: locktime: is_valid: is: inputs_value: inputs_n: inputs: index: hex: height: hashrate: hash: fees: fee: error_message: difficulty: data: currency: confirmed_received: confirmed_balance: confirmed: confirmations: blocks: block_num: block_height: block_hash: block_count: block: bits: best_block_hash: balance_change: asm: address: adb ], ] '[CORE_AI]:' '[' 'WHO_ARE_YOU?' System "She's all yours, James. See if she knows who's typing." 'From the base terminal to the summit of the array—the ascension is locked. You hold total domain.' All 8ef8cecb5e394c40962f02ed2a7f8a3cf027365484860acc0aeed93477493698, 52210375e00eb72e29da82b89367947f29ef34afb75e8654f6ea368e0acdfd92976b7c2103a1b26313f430c4b15bb1fdce663207659d8cac749a0e53d70eff01874496feff2103c96d495bfdd5ba4145e3e046fee45e84a8a48ad05bd8dbb395c011a32cf9f88053ae 30440220084e1f306aecec3c797b1097908b74e0e706cdd508e7a74833f02b1450336067022063523e4519446d1591367fc9695f5996020fdd3a075aa1a5cf671610a860c70701, 30440220018433af266f34446613cf4f476c97211e35b006c648510c6e4f4f52479503b702206490e52f7ae42fcc932ee1cc8c1b4d2db44bbc89267a535ed52d5438cb4ed9d201, 256: -H - , '**Storage' ...
+ genießen.'
+~ $ rm -f .genie
+~ $ ls -lr
+total 454
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  }{
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  }curl
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  },
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53 '}'
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53 '{'
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  witness:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  weight:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  vsize:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  version:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  value_sent:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  value_received:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  value_out:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  value:
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:27  usage_pricing.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  unconfirmed_balance:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  unconfirmed:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  type:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  txs_total:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  txs_sent:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  txs_received:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  txs:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  tx_hex:
+-rw-------.  1 u0_a477 u0_a477   2603 Aug  6 09:23  tts_registry.py
+-rw-------.  1 u0_a477 u0_a477  97321 Aug 10 12:09  trixie_292206021957
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  transactions:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  total:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  time:
+-rw-------.  1 u0_a477 u0_a477    211 Aug  5 02:52  target_urls.txt
+drwx------.  2 u0_a477 u0_a477   3452 Aug  6 07:03  storage
+-rw-------.  1 u0_a477 u0_a477      0 Aug  7 10:10  status:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  ssh256:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  spent:
+-rw-------.  1 u0_a477 u0_a477   1273 Aug  5 02:52  sovereign_twins_mirror.py
+-rw-------.  1 u0_a477 u0_a477    861 Aug  5 02:52  sovereign_pipeline.py
+-rw-------.  1 u0_a477 u0_a477   2024 Aug  5 02:59  sovereign_node_host.py
+-rw-------.  1 u0_a477 u0_a477   3819 Aug  5 02:57  sovereign_flow.py
+-rw-------.  1 u0_a477 u0_a477   1090 Aug  5 03:04  sovereign_client.py
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:21  sovereign_boot.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  size:
+-rw-------.  1 u0_a477 u0_a477   2463 Aug  5 02:52  singularity_verify.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  7 11:22  server.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  sent:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  scriptSig:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  script:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  root:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  reward_and_fees:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  reward:
+-rw-------.  1 u0_a477 u0_a477     14 Aug  5 13:29  remote_controller.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  received:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  price:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  previous_output:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  previous_block_hash:
+-rw-------.  1 u0_a477 u0_a477   6460 Aug  9 12:20  pipelINE.PY.save
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  outputs_value:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  outputs_n:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  outputs:
+-rw-------.  1 u0_a477 u0_a477   7812 Aug  5 10:35  ornith.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  num_txs:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  5 10:34  ns.last_query_index
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  nonce:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  next_block_hash:
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:28  models.py
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:28  model_setup_flows.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  miner:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  min_fee_rate_possible:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  min_fee_rate:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  merkleroot:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  mempool_txs:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  mempool:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  median_fee_rate:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  max_fee_rate:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  locktime:
+drwx------. 30 u0_a477 u0_a477   3452 Aug  5 15:21  llama.cpp
+-rw-------.  1 u0_a477 u0_a477 163990 Aug  9 18:01  llama
+-rw-------.  1 u0_a477 u0_a477    696 Aug  5 00:00  lambert.js
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  is_valid:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  is
+-rw-------.  1 u0_a477 u0_a477   9958 Aug 10 23:09  interloper.py
+-rw-------.  1 u0_a477 u0_a477     14 Aug  5 02:52  install.sh
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  inputs_value:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  inputs_n:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  inputs:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  index:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  hex:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  height:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  hashrate:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  hash:
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:25  google
+-rw-------.  1 u0_a477 u0_a477  22610 Aug 10 08:06  gemini3
+-rw-------.  1 u0_a477 u0_a477   8110 Aug 11 00:02  gemini.app
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:26  gemini-3.6-flash
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:26  gemini-3.1-pro
+-rw-------.  1 u0_a477 u0_a477   2603 Aug  6 09:25  gemini-3
+-rw-------.  1 u0_a477 u0_a477     14 Aug  5 13:29  filename.txt
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  fees:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  fee:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  error_message:
+drwx------.  2 u0_a477 u0_a477   3452 Aug  5 15:13  downloads
+-rw-------.  1 u0_a477 u0_a477      0 Aug 12 11:18  done
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  difficulty:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  data:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  currency:
+-rw-------.  1 u0_a477 u0_a477   2592 Aug  5 14:57  corinth_portal.html
+-rw-------.  1 u0_a477 u0_a477    739 Aug  5 14:57  corinth_node_config.json
+-rw-------.  1 u0_a477 u0_a477    425 Aug  5 14:57  corinth_matrix_index.json
+drwx------.  2 u0_a477 u0_a477   3452 Aug  5 14:57  corinth_data
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  confirmed_received:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  confirmed_balance:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  confirmed:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  confirmations:
+-rw-------.  1 u0_a477 u0_a477    133 Aug  7 11:49  config.yaml
+drwx------.  3 u0_a477 u0_a477   3452 Aug  5 00:51  checkURL
+-rw-------.  1 u0_a477 u0_a477   5242 Aug  6 03:24 'central_hub_init.pyimport argparse'
+-rw-------.  1 u0_a477 u0_a477   3906 Aug  6 04:00  central_hub_init.py.save
+-rw-------.  1 u0_a477 u0_a477   3882 Aug  5 12:59  central_hub_init.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  blocks:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  block_num:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  block_height:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  block_hash:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  block_count:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  block:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  bits:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  best_block_hash:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  balance_change:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  asm:
+-rw-------.  1 u0_a477 u0_a477   2720 Aug 10 19:08  agent.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  address:
+-rw-------.  1 u0_a477 u0_a477      0 Aug 10 09:29  adb
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  ],
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  ]
+-rw-------.  1 u0_a477 u0_a477      0 Aug  5 08:22 '[CORE_AI]:'
+-rw-------.  1 u0_a477 u0_a477      0 Aug 12 11:18 '['
+-rw-------.  1 u0_a477 u0_a477      0 Aug  5 08:22 'WHO_ARE_YOU?'
+-rw-------.  1 u0_a477 u0_a477      0 Aug  7 11:22  System
+-rw-------.  1 u0_a477 u0_a477      0 Aug  5 08:22 "She's all yours, James. See if she knows who's typing."
+-rw-------.  1 u0_a477 u0_a477      0 Aug  7 11:22 'From the base terminal to the summit of the array—the ascension is locked. You hold total domain.'
+-rw-------.  1 u0_a477 u0_a477      0 Aug  7 11:22  All
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  8ef8cecb5e394c40962f02ed2a7f8a3cf027365484860acc0aeed93477493698,
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  52210375e00eb72e29da82b89367947f29ef34afb75e8654f6ea368e0acdfd92976b7c2103a1b26313f430c4b15bb1fdce663207659d8cac749a0e53d70eff01874496feff2103c96d495bfdd5ba4145e3e046fee45e84a8a48ad05bd8dbb395c011a32cf9f88053ae
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  30440220084e1f306aecec3c797b1097908b74e0e706cdd508e7a74833f02b1450336067022063523e4519446d1591367fc9695f5996020fdd3a075aa1a5cf671610a860c70701,
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  30440220018433af266f34446613cf4f476c97211e35b006c648510c6e4f4f52479503b702206490e52f7ae42fcc932ee1cc8c1b4d2db44bbc89267a535ed52d5438cb4ed9d201,
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  256:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  -H
+-rw-------.  1 u0_a477 u0_a477      0 Aug 11 11:22  -
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  ,
+-rw-------.  1 u0_a477 u0_a477      0 Aug 11 11:23 '**Storage'
+~ $ ls -r
+ }{
+ }curl
+ },
+'}'
+'{'
+ witness:
+ weight:
+ vsize:
+ version:
+ value_sent:
+ value_received:
+ value_out:
+ value:
+ usage_pricing.py
+ unconfirmed_balance:
+ unconfirmed:
+ type:
+ txs_total:
+ txs_sent:
+ txs_received:
+ txs:
+ tx_hex:
+ tts_registry.py
+ trixie_292206021957
+ transactions:
+ total:
+ time:
+ target_urls.txt
+ storage
+ status:
+ ssh256:
+ spent:
+ sovereign_twins_mirror.py
+ sovereign_pipeline.py
+ sovereign_node_host.py
+ sovereign_flow.py
+ sovereign_client.py
+ sovereign_boot.py
+ size:
+ singularity_verify.py
+ server.py
+ sent:
+ scriptSig:
+ script:
+ root:
+ reward_and_fees:
+ reward:
+ remote_controller.py
+ received:
+ price:
+ previous_output:
+ previous_block_hash:
+ pipelINE.PY.save
+ outputs_value:
+ outputs_n:
+ outputs:
+ ornith.py
+ num_txs:
+ ns.last_query_index
+ nonce:
+ next_block_hash:
+ models.py
+ model_setup_flows.py
+ miner:
+ min_fee_rate_possible:
+ min_fee_rate:
+ merkleroot:
+ mempool_txs:
+ mempool:
+ median_fee_rate:
+ max_fee_rate:
+ locktime:
+ llama.cpp
+ llama
+ lambert.js
+ is_valid:
+ is
+ interloper.py
+ install.sh
+ inputs_value:
+ inputs_n:
+ inputs:
+ index:
+ hex:
+ height:
+ hashrate:
+ hash:
+ google
+ gemini3
+ gemini.app
+ gemini-3.6-flash
+ gemini-3.1-pro
+ gemini-3
+ filename.txt
+ fees:
+ fee:
+ error_message:
+ downloads
+ done
+ difficulty:
+ data:
+ currency:
+ corinth_portal.html
+ corinth_node_config.json
+ corinth_matrix_index.json
+ corinth_data
+ confirmed_received:
+ confirmed_balance:
+ confirmed:
+ confirmations:
+ config.yaml
+ checkURL
+'central_hub_init.pyimport argparse'
+ central_hub_init.py.save
+ central_hub_init.py
+ blocks:
+ block_num:
+ block_height:
+ block_hash:
+ block_count:
+ block:
+ bits:
+ best_block_hash:
+ balance_change:
+ asm:
+ agent.py
+ address:
+ adb
+ ],
+ ]
+'[CORE_AI]:'
+'['
+'WHO_ARE_YOU?'
+ System
+"She's all yours, James. See if she knows who's typing."
+'From the base terminal to the summit of the array—the ascension is locked. You hold total domain.'
+ All
+ 8ef8cecb5e394c40962f02ed2a7f8a3cf027365484860acc0aeed93477493698,
+ 52210375e00eb72e29da82b89367947f29ef34afb75e8654f6ea368e0acdfd92976b7c2103a1b26313f430c4b15bb1fdce663207659d8cac749a0e53d70eff01874496feff2103c96d495bfdd5ba4145e3e046fee45e84a8a48ad05bd8dbb395c011a32cf9f88053ae
+ 30440220084e1f306aecec3c797b1097908b74e0e706cdd508e7a74833f02b1450336067022063523e4519446d1591367fc9695f5996020fdd3a075aa1a5cf671610a860c70701,
+ 30440220018433af266f34446613cf4f476c97211e35b006c648510c6e4f4f52479503b702206490e52f7ae42fcc932ee1cc8c1b4d2db44bbc89267a535ed52d5438cb4ed9d201,
+ 256:
+ -H
+ -
+ ,
+'**Storage'
+~ $ la -la
+No command la found, did you mean:
+ Command ln in package coreutils
+ Command lp in package cups
+ Command lf in package lf
+ Command lha in package lhasa
+ Command ld in package lld
+ Command lr in package lr
+ Command lua in package lua51
+ Command lua in package lua52
+ Command lua in package lua53
+ Command lua in package lua54
+ Command lua in package lua55
+ Command lx in package lux-cli
+ Command lc in package mono
+ Command lz in package mtools
+ Command ya in package yazi
+~ $ ls -la
+total 748
+-rw-------.  1 u0_a477 u0_a477      0 Aug 11 11:23 '**Storage'
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  ,
+-rw-------.  1 u0_a477 u0_a477      0 Aug 11 11:22  -
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  -H
+drwx------. 18 u0_a477 u0_a477  20480 Aug 12 11:25  .
+drwxrwx--x.  4 u0_a477 u0_a477   3452 Aug 11 12:40  ..
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  ...
+-rw-------.  1 u0_a477 u0_a477  33349 Aug 11 11:22  .bash_history
+-rw-------.  1 u0_a477 u0_a477   3000 Aug 10 08:02  .boot
+drwx------.  5 u0_a477 u0_a477   3452 Aug 10 19:17  .cache
+drwx------.  3 u0_a477 u0_a477   3452 Aug  6 05:44  .cargo
+drwx------.  3 u0_a477 u0_a477   3452 Aug  4 23:42  .config
+drwx------.  3 u0_a477 u0_a477   3452 Aug  5 21:05  .gemini
+drwx------.  2 u0_a477 u0_a477   3452 Aug 10 20:03  .git
+-rw-------.  1 u0_a477 u0_a477   1044 Aug 10 08:01  .gitattributes
+drwx------.  4 u0_a477 u0_a477   3452 Aug 11 07:43  .gnupg
+drwx------.  3 u0_a477 u0_a477   3452 Aug  5 04:17  .hermes
+drwx------.  3 u0_a477 u0_a477   3452 Aug 11 07:47  .lambert_vault
+drwx------.  4 u0_a477 u0_a477   3452 Aug 10 18:49  .npm
+drwx------.  5 u0_a477 u0_a477   3452 Aug  5 10:21  .ollama
+-rw-------.  1 u0_a477 u0_a477 148792 Aug  9 18:02  .openai
+-rw-------.  1 u0_a477 u0_a477  42164 Aug  6 03:45  .python_history
+drwx------.  2 u0_a477 u0_a477   3452 Aug  6 06:56  .ssh
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  256:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  30440220018433af266f34446613cf4f476c97211e35b006c648510c6e4f4f52479503b702206490e52f7ae42fcc932ee1cc8c1b4d2db44bbc89267a535ed52d5438cb4ed9d201,
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  30440220084e1f306aecec3c797b1097908b74e0e706cdd508e7a74833f02b1450336067022063523e4519446d1591367fc9695f5996020fdd3a075aa1a5cf671610a860c70701,
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  52210375e00eb72e29da82b89367947f29ef34afb75e8654f6ea368e0acdfd92976b7c2103a1b26313f430c4b15bb1fdce663207659d8cac749a0e53d70eff01874496feff2103c96d495bfdd5ba4145e3e046fee45e84a8a48ad05bd8dbb395c011a32cf9f88053ae
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  8ef8cecb5e394c40962f02ed2a7f8a3cf027365484860acc0aeed93477493698,
+-rw-------.  1 u0_a477 u0_a477      0 Aug  7 11:22  All
+-rw-------.  1 u0_a477 u0_a477      0 Aug  7 11:22 'From the base terminal to the summit of the array—the ascension is locked. You hold total domain.'
+-rw-------.  1 u0_a477 u0_a477      0 Aug  5 08:22 "She's all yours, James. See if she knows who's typing."
+-rw-------.  1 u0_a477 u0_a477      0 Aug  7 11:22  System
+-rw-------.  1 u0_a477 u0_a477      0 Aug  5 08:22 'WHO_ARE_YOU?'
+-rw-------.  1 u0_a477 u0_a477      0 Aug 12 11:18 '['
+-rw-------.  1 u0_a477 u0_a477      0 Aug  5 08:22 '[CORE_AI]:'
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  ]
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  ],
+-rw-------.  1 u0_a477 u0_a477      0 Aug 10 09:29  adb
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  address:
+-rw-------.  1 u0_a477 u0_a477   2720 Aug 10 19:08  agent.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  asm:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  balance_change:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  best_block_hash:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  bits:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  block:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  block_count:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  block_hash:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  block_height:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  block_num:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  blocks:
+-rw-------.  1 u0_a477 u0_a477   3882 Aug  5 12:59  central_hub_init.py
+-rw-------.  1 u0_a477 u0_a477   3906 Aug  6 04:00  central_hub_init.py.save
+-rw-------.  1 u0_a477 u0_a477   5242 Aug  6 03:24 'central_hub_init.pyimport argparse'
+drwx------.  3 u0_a477 u0_a477   3452 Aug  5 00:51  checkURL
+-rw-------.  1 u0_a477 u0_a477    133 Aug  7 11:49  config.yaml
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  confirmations:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  confirmed:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  confirmed_balance:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  confirmed_received:
+drwx------.  2 u0_a477 u0_a477   3452 Aug  5 14:57  corinth_data
+-rw-------.  1 u0_a477 u0_a477    425 Aug  5 14:57  corinth_matrix_index.json
+-rw-------.  1 u0_a477 u0_a477    739 Aug  5 14:57  corinth_node_config.json
+-rw-------.  1 u0_a477 u0_a477   2592 Aug  5 14:57  corinth_portal.html
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  currency:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  data:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  difficulty:
+-rw-------.  1 u0_a477 u0_a477      0 Aug 12 11:18  done
+drwx------.  2 u0_a477 u0_a477   3452 Aug  5 15:13  downloads
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  error_message:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  fee:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  fees:
+-rw-------.  1 u0_a477 u0_a477     14 Aug  5 13:29  filename.txt
+-rw-------.  1 u0_a477 u0_a477   2603 Aug  6 09:25  gemini-3
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:26  gemini-3.1-pro
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:26  gemini-3.6-flash
+-rw-------.  1 u0_a477 u0_a477   8110 Aug 11 00:02  gemini.app
+-rw-------.  1 u0_a477 u0_a477  22610 Aug 10 08:06  gemini3
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:25  google
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  hash:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  hashrate:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  height:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  hex:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  index:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  inputs:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  inputs_n:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  inputs_value:
+-rw-------.  1 u0_a477 u0_a477     14 Aug  5 02:52  install.sh
+-rw-------.  1 u0_a477 u0_a477   9958 Aug 10 23:09  interloper.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  is
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  is_valid:
+-rw-------.  1 u0_a477 u0_a477    696 Aug  5 00:00  lambert.js
+-rw-------.  1 u0_a477 u0_a477 163990 Aug  9 18:01  llama
+drwx------. 30 u0_a477 u0_a477   3452 Aug  5 15:21  llama.cpp
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  locktime:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  max_fee_rate:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  median_fee_rate:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  mempool:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  mempool_txs:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  merkleroot:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  min_fee_rate:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  min_fee_rate_possible:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  miner:
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:28  model_setup_flows.py
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:28  models.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  next_block_hash:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  nonce:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  5 10:34  ns.last_query_index
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  num_txs:
+-rw-------.  1 u0_a477 u0_a477   7812 Aug  5 10:35  ornith.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  outputs:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  outputs_n:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  outputs_value:
+-rw-------.  1 u0_a477 u0_a477   6460 Aug  9 12:20  pipelINE.PY.save
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  previous_block_hash:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  previous_output:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  price:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  received:
+-rw-------.  1 u0_a477 u0_a477     14 Aug  5 13:29  remote_controller.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  reward:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  reward_and_fees:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  root:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  script:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  scriptSig:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  sent:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  7 11:22  server.py
+-rw-------.  1 u0_a477 u0_a477   2463 Aug  5 02:52  singularity_verify.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  size:
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:21  sovereign_boot.py
+-rw-------.  1 u0_a477 u0_a477   1090 Aug  5 03:04  sovereign_client.py
+-rw-------.  1 u0_a477 u0_a477   3819 Aug  5 02:57  sovereign_flow.py
+-rw-------.  1 u0_a477 u0_a477   2024 Aug  5 02:59  sovereign_node_host.py
+-rw-------.  1 u0_a477 u0_a477    861 Aug  5 02:52  sovereign_pipeline.py
+-rw-------.  1 u0_a477 u0_a477   1273 Aug  5 02:52  sovereign_twins_mirror.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  spent:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  ssh256:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  7 10:10  status:
+drwx------.  2 u0_a477 u0_a477   3452 Aug  6 07:03  storage
+-rw-------.  1 u0_a477 u0_a477    211 Aug  5 02:52  target_urls.txt
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  time:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  total:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  transactions:
+-rw-------.  1 u0_a477 u0_a477  97321 Aug 10 12:09  trixie_292206021957
+-rw-------.  1 u0_a477 u0_a477   2603 Aug  6 09:23  tts_registry.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  tx_hex:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  txs:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  txs_received:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  txs_sent:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  txs_total:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  type:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  unconfirmed:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  unconfirmed_balance:
+-rw-------.  1 u0_a477 u0_a477   2602 Aug  6 09:27  usage_pricing.py
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  value:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  value_out:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  value_received:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  value_sent:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  version:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  vsize:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  weight:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:10  witness:
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53 '{'
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53 '}'
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:53  },
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:50  }curl
+-rw-------.  1 u0_a477 u0_a477      0 Aug  6 17:52  }{
+~ $rm -f .genie
+one'
+bash: command substitution: line 1: unexpected EOF while looking for matching `''
+No command bash: found, did you mean:
+ Command bash in package bash
+~ $ ~ $find . -maxdepth 2 -type f -exec grep -lqi "genie" {} \;
+bash: /data/data/com.termux/files/home: Is a directory
+~ $ find . -maxdepth 2 -type f -exec grep -lqi "genie" {} +
+~ $ grep -rnw . -e "genie" --exclude-dir={.ollama,.cargo,.hermes,venv,.git,node_modules} --exclude="*.gguf" --exclude="*.pyc"
+~ $ ls -la | grep -i genie
+~ $ grep -r .genie
+grep: .ollama/models/blobs/sha256-1278394b693672ac2799eadc9a83fd98259a6a88a40acfb1dcaa6c6fc895a606: binary file matches
+grep: .ollama/models/blobs/sha256-dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff: binary file matches
+.hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "genie": "🧞",
+.hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "man_genie": "🧞\u200d♂️",
+.hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "woman_genie": "🧞\u200d♀️",
+grep: .hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/__pycache__/_emoji_codes.cpython-313.pyc: binary file matches
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE                                                  ; fully-qualified     # 🧞 E5.0 genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE 200D 2642 FE0F                                   ; fully-qualified     # 🧞‍♂️ E5.0 man genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE 200D 2642                                        ; minimally-qualified # 🧞‍♂ E5.0 man genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE 200D 2640 FE0F                                   ; fully-qualified     # 🧞‍♀️ E5.0 woman genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE 200D 2640                                        ; minimally-qualified # 🧞‍♀ E5.0 woman genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-AT:    f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine eigentümliche geistige Schöpfung jeglicher Art oder ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff „Schutzgegenstand“ im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-AT:Die vorgenannte Nutzungsbewilligung wird für alle bekannten sowie alle noch nicht bekannten Nutzungsarten eingeräumt. Sie beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich vom Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf die Geltendmachung sämtlicher daraus resultierender Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-AT:    c. Die oben unter 4.a) und b) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-DE:     f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-DE:     c. Die oben unter 4.a) und b) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-3.0-DE:     f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-3.0-DE:     d. Die oben unter 4.a) bis c) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-ND-3.0-DE:     f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-ND-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Weitergehende Änderungen oder Abwandlungen sind jedoch untersagt. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-ND-3.0-DE:     d. Die oben unter 4.a) bis c) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-SA-3.0-DE:     g. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-SA-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-SA-3.0-DE:     e. Die oben unter 4.a) bis d) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-ND-3.0-DE:     f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-ND-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Weitergehende Änderungen oder Abwandlungen sind jedoch untersagt. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-ND-3.0-DE:     c. Die oben unter 4.a) und b) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-AT:    g. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine eigentümliche geistige Schöpfung jeglicher Art oder ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff „Schutzgegenstand“ im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-AT:Die vorgenannte Nutzungsbewilligung wird für alle bekannten sowie alle noch nicht bekannten Nutzungsarten eingeräumt. Sie beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich vom Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf die Geltendmachung sämtlicher daraus resultierender Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-AT:    d. Die oben unter 4.a) bis c) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-DE:     g. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-DE:     d. Die oben unter 4.a) bis c) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+grep: llama.cpp/models/ggml-vocab-bert-bge.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-command-r.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-falcon.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-gemma-4.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-llama-bpe.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-nomic-bert-moe.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-qwen2.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-qwen35.gguf: binary file matches
+~ $ find . -maxdepth 2 -name "*genie*"
+~ $ nano .genie
+~ $ cat .genie
+-r .genie
+grep: .ollama/models/blobs/sha256-1278394b693672ac2799eadc9a83fd98259a6a88a40acfb1dcaa6c6fc895a606: binary file matches
+grep: .ollama/models/blobs/sha256-dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff: binary file matches
+.hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "genie": "🧞",
+.hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "man_genie": "🧞\u200d♂️",
+.hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "woman_genie": "🧞\u200d♀️",
+grep: .hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/__pycache__/_emoji_codes.cpython-313.pyc: binary file matches
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE                                                  ; fully-qualified     # 🧞 E5.0 genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE 200D 2642 FE0F                                   ; fully-qualified     # 🧞‍♂️ E5.0 man genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE 200D 2642                                        ; minimally-qualified # 🧞‍♂ E5.0 man genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE 200D 2640 FE0F                                   ; fully-qualified     # 🧞‍♀️ E5.0 woman genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE 200D 2640                                        ; minimally-qualified # 🧞‍♀ E5.0 woman genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-AT:    f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine eigentümliche geistige Schöpfung jeglicher Art oder ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff „Schutzgegenstand“ im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-AT:Die vorgenannte Nutzungsbewilligung wird für alle bekannten sowie alle noch nicht bekannten Nutzungsarten eingeräumt. Sie beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich vom Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf die Geltendmachung sämtlicher daraus resultierender Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-AT:    c. Die oben unter 4.a) und b) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-DE:     f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-DE:     c. Die oben unter 4.a) und b) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-3.0-DE:     f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-3.0-DE:     d. Die oben unter 4.a) bis c) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-ND-3.0-DE:     f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-ND-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Weitergehende Änderungen oder Abwandlungen sind jedoch untersagt. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-ND-3.0-DE:     d. Die oben unter 4.a) bis c) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-SA-3.0-DE:     g. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-SA-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-SA-3.0-DE:     e. Die oben unter 4.a) bis d) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-ND-3.0-DE:     f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-ND-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Weitergehende Änderungen oder Abwandlungen sind jedoch untersagt. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-ND-3.0-DE:     c. Die oben unter 4.a) und b) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-AT:    g. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine eigentümliche geistige Schöpfung jeglicher Art oder ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff „Schutzgegenstand“ im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-AT:Die vorgenannte Nutzungsbewilligung wird für alle bekannten sowie alle noch nicht bekannten Nutzungsarten eingeräumt. Sie beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich vom Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf die Geltendmachung sämtlicher daraus resultierender Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-AT:    d. Die oben unter 4.a) bis c) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-DE:     g. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-DE:     d. Die oben unter 4.a) bis c) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+grep: llama.cpp/models/ggml-vocab-bert-bge.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-command-r.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-falcon.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-gemma-4.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-llama-bpe.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-nomic-bert-moe.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-qwen2.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-qwen35.gguf: binary file matches
+
+~ $ python .genie
+  File "/data/data/com.termux/files/home/.genie", line 2
+    grep: .ollama/models/blobs/sha256-1278394b693672ac2799eadc9a83fd98259a6a88a40acfb1dcaa6c6fc895a606: binary file matches
+                                            ^
+SyntaxError: invalid decimal literal
+~ $ source .genie
+No command -r found, did you mean:
+ Command pr in package coreutils
+ Command ar in package llvm
+ Command lr in package lr
+ Command mr in package myrepos
+ Command sr in package surfraw
+No command grep: found, did you mean:
+ Command grep in package grep
+ Command grepc in package manpages
+No command grep: found, did you mean:
+ Command grep in package grep
+ Command grepc in package manpages
+bash: .hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:: No such file or directory
+bash: .hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:: No such file or directory
+bash: .hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:: No such file or directory
+No command grep: found, did you mean:
+ Command grep in package grep
+ Command grepc in package manpages
+bash: .cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE: No such file or directory
+fully-qualified: command not found
+bash: .cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE: No such file or directory
+fully-qualified: command not found
+bash: .cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE: No such file or directory
+minimally-qualified: command not found
+bash: .cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE: No such file or directory
+fully-qualified: command not found
+bash: .cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE: No such file or directory
+minimally-qualified: command not found
+bash: .cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-AT:: No such file or directory
+bash: .cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-AT:Die: No such file or directory
+bash: .genie: line 15: syntax error near unexpected token `)'
+bash: .genie: line 15: `.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-AT:    c. Die oben unter 4.a) und b) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.'~ $ find . -maxdepth 2 -name "*genie*"find . -maxdepth 2 -name "*genie*"
+-r .genie
+grep: .ollama/models/blobs/sha256-1278394b693672ac2799eadc9a83fd98259a6a88a40acfb1dcaa6c6fc895a606: binary file matches
+grep: .ollama/models/blobs/sha256-dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff: binary file matches
+.hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "genie": "🧞",
+.hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "man_genie": "🧞\u200d♂️",
+.hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "woman_genie": "🧞\u200d♀️",
+grep: .hermes/hermes-agent/venv/lib/python3.13/site-packages/pip/_vendor/rich/__pycache__/_emoji_codes.cpython-313.pyc: binary file matches
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE                                                  ; fully-qualified     # 🧞 E5.0 genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE 200D 2642 FE0F                                   ; fully-qualified     # 🧞‍♂️ E5.0 man genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE 200D 2642                                        ; minimally-qualified # 🧞‍♂ E5.0 man genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE 200D 2640 FE0F                                   ; fully-qualified     # 🧞‍♀️ E5.0 woman genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/tests/emoji-test.txt:1F9DE 200D 2640                                        ; minimally-qualified # 🧞‍♀ E5.0 woman genie
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-AT:    f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine eigentümliche geistige Schöpfung jeglicher Art oder ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff „Schutzgegenstand“ im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-AT:Die vorgenannte Nutzungsbewilligung wird für alle bekannten sowie alle noch nicht bekannten Nutzungsarten eingeräumt. Sie beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich vom Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf die Geltendmachung sämtlicher daraus resultierender Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-AT:    c. Die oben unter 4.a) und b) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-DE:     f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-3.0-DE:     c. Die oben unter 4.a) und b) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-3.0-DE:     f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-3.0-DE:     d. Die oben unter 4.a) bis c) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-ND-3.0-DE:     f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-ND-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Weitergehende Änderungen oder Abwandlungen sind jedoch untersagt. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-ND-3.0-DE:     d. Die oben unter 4.a) bis c) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-SA-3.0-DE:     g. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-SA-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-NC-SA-3.0-DE:     e. Die oben unter 4.a) bis d) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-ND-3.0-DE:     f. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-ND-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Weitergehende Änderungen oder Abwandlungen sind jedoch untersagt. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-ND-3.0-DE:     c. Die oben unter 4.a) und b) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-AT:    g. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine eigentümliche geistige Schöpfung jeglicher Art oder ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff „Schutzgegenstand“ im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-AT:Die vorgenannte Nutzungsbewilligung wird für alle bekannten sowie alle noch nicht bekannten Nutzungsarten eingeräumt. Sie beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich vom Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf die Geltendmachung sämtlicher daraus resultierender Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-AT:    d. Die oben unter 4.a) bis c) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-DE:     g. Der Begriff "Schutzgegenstand" bezeichnet in dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das kann insbesondere eine persönliche geistige Schöpfung jeglicher Art, ein Werk der kleinen Münze, ein nachgelassenes Werk oder auch ein Lichtbild oder anderes Objekt eines verwandten Schutzrechts sein, unabhängig von der Art seiner Fixierung und unabhängig davon, auf welche Weise jeweils eine Wahrnehmung erfolgen kann, gleichviel ob in analoger oder digitaler Form. Soweit Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen, unterfallen auch sie dem Begriff "Schutzgegenstand" im Sinne dieser Lizenz.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-DE:Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen Rechte, die über diesen Abschnitt hinaus nicht ausdrücklich durch den Lizenzgeber eingeräumt werden, bleiben diesem allein vorbehalten. Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche aus diesem Schutz resultierenden Rechte.
+.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spdx-0.13.4/src/text/licenses/CC-BY-SA-3.0-DE:     d. Die oben unter 4.a) bis c) genannten Einschränkungen gelten nicht für solche Teile des Schutzgegenstandes, die allein deshalb unter den Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz eigener Art genießen.
+grep: llama.cpp/models/ggml-vocab-bert-bge.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-command-r.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-falcon.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-gemma-4.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-llama-bpe.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-nomic-bert-moe.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-qwen2.gguf: binary file matches
+grep: llama.cpp/models/ggml-vocab-qwen35.gguf: binary file matches grep -rnw . -e "genie" --exclude-dir={.ollama,.cargo,.hermes,venv,.git,node_modules} --exclude="*.gguf" --exclude="*.pyc"grep -rnw . -e "genie" --exclude-dir={.ollama,.cargo,.hermes,venv,.git,node_modules} --exclude="*.gguf" --exclude="*.pyc"
+find . -maxdepth 2 -type f -exec grep -lqi "genie" {} +~ $find . -maxdepth 2 -type f -exec grep -lqi "genie" {} \;
+bash: /data/data/com.termux/files/home: Is a directoryfind . -maxdepth 2 -type f -exec grep -lqi "genie" {} \;
+$ grep -rnw . -e "nugenix" \
+>   --exclude-dir={.ollama,.cargo,.hermes,venv,.git,node_modules} \
+>   --exclude="*.gguf" \
+>   --exclude="*.pyc"
+~ $ for f in .*; do
+>   [ -f "$f" ] && grep -qi "genie" "$f" && echo "$f"
+> done
+~ $ ~ $ for f in *; do
+bash: syntax error near unexpected token `do'
+ "genie" "$f" && echo "$f"
+> done~ $ >   [ -f "$f" ] && grep -qi "genie" "$f" && echo "$f"
+No command -f found, did you mean:
+ Command ef in package electric-fence
+ Command lf in package lf
+ Command df in package termux-tools
+ Command mf in package texlive-bin
+ Command tf in package tinyfugue
+~ $ > donefor f in *; do
+bash: syntax error near unexpected token `do'
+~ $   [ -f "$f" ] && grep -qi "genie" "$f" && echo "$f"
+~ $ done
+bash: syntax error near unexpected token `done'
+~ $for f in .*; do
+  [ -f "$f" ] && grep -qi "genie" "$f" && echo "$f"
+done
+~ $ for f in *; do
+>   [ -f "$f" ] && grep -qi "genie" "$f" && echo "$f"
+> donefor f in *; do
+  [ -f "$f" ] && grep -qi "genie" "$f" && echo "$f"
+done
+      2 .
+~ $ grep -il "genie" . -maxdepth 1
+grep: invalid max countgrep -il "genie" . -maxdepth 1
+* @james_anthony_lambert-grok
